@@ -1,0 +1,25 @@
+2017-03-18 20:47:10 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1489841230 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1489841230 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-03-18 20:47:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-03-18 20:47:10 response :
+------------
+

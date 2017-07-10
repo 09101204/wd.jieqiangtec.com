@@ -1,0 +1,236 @@
+<div class="wrapper mT5">
+  <div class="l_left">
+  <div id="hothelp" class="fLeft">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>升级公告</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li><a href="update.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-main clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $Update $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="Update.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  <div class="l_leftjj"></div>
+  </div>
+  <div id="commend" class="fRight">
+<a href="service.php"><img src=images/sell.jpg border=0 alt=详情咨询工作人员></a>  <div class="l_leftjj"></div>
+  </div>
+  </div>
+  
+  <div class="l_right2">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>{$title_}</h2>
+          </span></span>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="pfeature clear">
+<form name="regform" action="reg.php?action=save" method="post" onsubmit="return checkform()">
+        <table border="0" cellspacing="0" cellpadding="0" style="color:#2f539c">
+        <tr>
+          <td width="150" height="45" align="right"><span style="color:#FF0000">*</span> {lang reg_companyid}</td>
+          <td width="150"><input type="text" class=input2 name="companyid" size="18" maxlength="20" onfocus="return SetDefault('companyid');" onblur="CheckCompanyid()"></td>
+          <td width="300"><div id="companyidmsg" class="tiptd1">{lang reg_tip_companyid}</div></td>
+        </tr>
+        <tr>
+          <td height="20" align="right">{lang reg_username}</td>
+          <td><input type="text" class=input2 name="username" size="18" readonly></td>
+          <td>{lang reg_tip_username}</td>
+        </tr>
+        <tr>
+          <td height="45" align="right"><span style="color:#FF0000">*</span> {lang reg_pass1}</td>
+          <td><input type="password" class=input2 name="pass1" size="18" maxlength="20" onfocus="return SetDefault('pass1');" onblur="CheckPass1()"></td>
+          <td><div id="pass1msg" class="tiptd1">{lang reg_tip_pass1}</div></td>
+        </tr>
+        <tr>
+          <td height="45" align="right"><span style="color:#FF0000">*</span> {lang reg_pass2}</td>
+          <td><input type="password" class=input2 name="pass2" size="18" maxlength="20" onfocus="return SetDefault('pass2');" onblur="CheckPass2()"></td>
+          <td><div id="pass2msg" class="tiptd1">{lang reg_tip_pass2}</div></td>
+        </tr>
+        <tr>
+          <td height="45" align="right"><span style="color:#FF0000">*</span> {lang reg_email}</td>
+          <td><input type="text" class=input2 name="email" size="18" maxlength="120" onfocus="return SetDefault('email');" onblur="CheckEmail()"></td>
+          <td><div id="emailmsg" class="tiptd1">{lang reg_tip_email}</div></td>
+        </tr>
+        <tr>
+          <td height="45" align="right"><span style="color:#e65a00"></span> {lang reg_url}</td>
+          <td><input type="text" class=input2 name="url" size="18" maxlength="120" value="http://"></td>
+          <td>{lang reg_tip_url}</td>
+        </tr>
+        <tr>
+          <td height="45" align="right"><span style="color:#e65a00"></span> {lang reg_upuser}</td>
+          <td><input type="text" class=input2 name="upuser" size="18" maxlength="20" value="$upuser"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">
+            <input type="image" name="submit" src="images/login2.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/login3.gif" style="cursor:pointer" onclick="regform.reset()">          </td>
+        </tr>
+        </table>
+        </form>
+		</div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="include/javascript/common.js"></script>
+<script type="text/javascript" src="include/javascript/ajax.js"></script>
+<script type="text/javascript">
+var theform=document.regform;
+function SetDefault(s){
+  switch(s){
+    case 'companyid':
+      $("companyidmsg").className="tiptd1";
+      $("companyidmsg").innerHTML="{lang reg_tip_companyid}";
+      break;
+    case 'pass1':
+      $("pass1msg").className="tiptd1";
+      $("pass1msg").innerHTML="{lang reg_tip_pass1}";
+      break;
+    case 'pass2':
+      $("pass2msg").className="tiptd1";
+      $("pass2msg").innerHTML="{lang reg_tip_pass2}";
+      break;
+    case 'email':
+      $("emailmsg").className="tiptd1";
+      $("emailmsg").innerHTML="{lang reg_tip_email}";
+      break;
+  }
+}
+function checkstr(e){
+	var ok = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_";
+	for(var i=0; i<e.length; i++){
+		if (ok.indexOf(e.charAt(i))<0) {
+			return false;
+		}
+	}
+	return true;
+}
+function checkEmail(e){
+	var ok = "1234567890qwertyuiop[]asdfghjklzxcvbnm.+@-_QWERTYUIOPASDFGHJKLZXCVBNM";
+	for(var i=0; i<e.length; i++){
+		if (ok.indexOf(e.charAt(i))<0) {
+			return false;
+		}
+	}
+	if(e.indexOf("@")<=0){
+		return false;
+	}
+	if(e.indexOf(".")<=0){
+		return false;
+	}	
+	return true;
+}
+function CheckCompanyid(){
+  if(theform.companyid.value.length<1){
+		$("companyidmsg").className="tiptd2";
+		$("companyidmsg").innerHTML="{lang reg_error_companyid_none}";
+		return false;
+  }
+  if(theform.companyid.value.length<4){
+		$("companyidmsg").className="tiptd2";
+		$("companyidmsg").innerHTML="{lang reg_error_companyid_short}";
+		return false;
+  }
+  if(theform.companyid.value.length>20){
+		$("companyidmsg").className="tiptd2";
+		$("companyidmsg").innerHTML="{lang reg_error_companyid_long}";
+		return false;
+  }
+  if(!checkstr(theform.companyid.value)){
+		$("companyidmsg").className="tiptd2";
+		$("companyidmsg").innerHTML="{lang reg_error_companyid_format}";
+		return false;
+  }
+  var x=new Ajax("HTML","");
+  x.post("reg.php?action=checkcompanyid","cid="+theform.companyid.value,function(s){
+    if(s=="Y"){
+      $("companyidmsg").className="tiptd3";
+      $("companyidmsg").innerHTML="{lang reg_true_companyid}";
+      return true;
+    }else{
+      $("companyidmsg").className="tiptd2";
+      $("companyidmsg").innerHTML="{lang reg_error_companyid_exists}";
+      return false;
+    }
+  });
+  return true;
+}
+function CheckPass1(){
+  if(theform.pass1.value.length<1){
+		$("pass1msg").className="tiptd2";
+		$("pass1msg").innerHTML="{lang reg_error_pass1_none}";
+		return false;
+  }
+  if(theform.pass1.value.length<6){
+		$("pass1msg").className="tiptd2";
+		$("pass1msg").innerHTML="{lang reg_error_pass1_short}";
+		return false;
+  }
+  if(theform.pass1.value.length>20){
+		$("pass1msg").className="tiptd2";
+		$("pass1msg").innerHTML="{lang reg_error_pass1_long}";
+		return false;
+  }
+  $("pass1msg").className="tiptd3";
+  $("pass1msg").innerHTML="{lang reg_true_pass1}";
+  return true;
+}
+function CheckPass2(){
+  if(theform.pass1.value!=theform.pass2.value){
+		$("pass2msg").className="tiptd2";
+		$("pass2msg").innerHTML="{lang reg_error_pass2_distinct}";
+		return false;
+  }
+  $("pass2msg").className="tiptd3";
+  $("pass2msg").innerHTML="{lang reg_true_pass2}";
+  return true;
+}
+function CheckEmail(){
+  if(theform.email.value.length<1){
+		$("emailmsg").className="tiptd2";
+		$("emailmsg").innerHTML="{lang reg_error_email_none}";
+		return false;
+  }
+  if(!checkEmail(theform.email.value)){
+		$("emailmsg").className="tiptd2";
+		$("emailmsg").innerHTML="{lang reg_error_email_format}";
+		return false;
+  }
+  $("emailmsg").className="tiptd3";
+  $("emailmsg").innerHTML="{lang reg_true_email}";
+  return true;
+}
+function checkform(){
+  if(!CheckCompanyid()){return false;}
+  if(!CheckPass1()){return false;}
+  if(!CheckPass2()){return false;}
+  if(!CheckEmail()){return false;}
+  return true;
+}
+</script>

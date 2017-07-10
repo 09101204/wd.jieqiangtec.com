@@ -1,0 +1,13 @@
+<script src="BottomMessage.js" type="text/javascript"></script>
+<script>
+function showmsg(Y,N)
+{
+var MSG1 = new CLASS_MSN_MESSAGE("aa",200,120,"消息提示：","有人上线","妙思提醒您,咨询列表有变化!");  
+    MSG1.rect(null,null,null,screen.height-50); 
+    MSG1.speed    = 10; 
+    MSG1.step    = 5; 
+    //alert(MSG1.top); 
+    MSG1.show();  
+}
+</script>
+<input type="text" id="dd1" value="click" onclick="showmsg('a','a')" />

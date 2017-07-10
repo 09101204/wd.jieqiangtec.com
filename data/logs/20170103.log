@@ -1,0 +1,27 @@
+2017-01-03 16:09:25 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1483430965 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1483430965 ;
+msgtype : text ;
+content : 微现场 ;
+msgid : 6371287480957835985 ;
+redirection :  ;
+source :  ;
+
+2017-01-03 16:09:25 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-01-03 16:09:25 response :
+------------
+

@@ -1,0 +1,100 @@
+2017-02-22 12:47:06 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1487738825 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1487738825 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-02-22 12:47:06 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-02-22 12:47:06 response :
+------------
+
+2017-02-22 12:47:11 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1487738831 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1487738831 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-02-22 12:47:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-02-22 12:47:11 response :
+------------
+
+2017-02-22 12:50:23 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1487739023 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1487739023 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-02-22 12:50:23 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-02-22 12:50:23 response :
+------------
+
+2017-02-22 22:08:41 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1487772521 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1487772521 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-02-22 22:08:41 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-02-22 22:08:41 response :
+------------
+

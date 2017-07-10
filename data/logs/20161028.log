@@ -1,0 +1,25 @@
+2016-10-28 13:17:56 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477631876 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477631876 ;
+msgtype : event ;
+msgid : 407943369 ;
+status : success ;
+
+2016-10-28 13:17:56 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-28 13:17:56 response :
+------------
+

@@ -1,0 +1,68 @@
+A {
+  COLOR: #123960;
+  TEXT-DECORATION: none;
+}
+A:hover {
+  COLOR: #123960;
+  TEXT-DECORATION: underline;
+}
+/*网站主体*/
+body{
+	background: url(bg.jpg);
+	color: #000000;
+  margin:60 auto;
+	border: 0;
+	text-align: center;
+	font: 12px "宋体", Tahoma;
+  word-break:break-all;
+}
+input{
+  FONT-FAMILY: 宋体,Verdana,Arial,Helvetica,sans-serif;
+}
+.table{
+  width:600px;
+  height:416px;
+	background: url(LoginBg.gif) no-repeat;
+}
+.form{
+  padding:180px 0px 0px 120px;
+}
+.name{
+  float:left;
+  width:60px;
+  line-height:24px;
+}
+.value{
+  float:left;
+  line-height:24px;
+}
+.clear{
+  clear:left;
+}
+.buttonbg{
+  float:left;
+  width:260px;
+  height:50px;
+}
+.button {
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 6px;
+	color: #000000;
+	background: #bedeff url(bg_button.gif) repeat-x;
+
+	/*for Mozilla*/
+ 	outline: 1px solid #296c89 ;
+	border: 1px solid #FFFFFF !important;
+	height: 24px !important;
+	line-height: 22px !important;
+
+	/*for IE7*/
+	> border: 1px solid #296C89 !important;
+	> height: 26px !important;
+	> line-height: 20px !important;
+
+	/*for IE*/
+	border: 1px solid #296C89 ;
+	height: 26px;
+	line-height: 20px;
+}

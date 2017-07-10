@@ -1,0 +1,54 @@
+2017-06-26 14:33:03 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1498458783 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1498458783 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+msgid : 6435831467800662645 ;
+redirection :  ;
+source :  ;
+
+2017-06-26 14:33:03 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-06-26 14:33:03 response :
+------------
+
+2017-06-26 14:34:56 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1498458896 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1498458896 ;
+msgtype : text ;
+content : Scope 参数错误或没有 Scope 权限 ;
+msgid : 6435831953131967113 ;
+redirection :  ;
+source :  ;
+
+2017-06-26 14:34:56 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-06-26 14:34:56 response :
+------------
+

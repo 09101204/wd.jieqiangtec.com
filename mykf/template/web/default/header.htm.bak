@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>28在线客服系统——自定义LOGO、广告、个性化邀请框</title>
+<META NAME="Author" CONTENT="28在线客服系统">
+<meta name="keywords" content="免费客服系统|免费在线客服系统|免费网站客服系统|免费在线客服系统|免费网上客服|免费网上客服系统|免费网上在线客服系统|28客服系统" />
+<meta name="description" content="28在线客服系统:是嵌在网站上应用的一款多功能网站在线客服系统,在线客服,在线客服软件,拥有自定义LOGO、广告、个性化邀请框、访客监测及统计、留言等功能。" />
+<link href="images/dedecms.css" rel="stylesheet" type="text/css" />
+<link href="images/dialog.css" rel="stylesheet" type="text/css" />
+<link href="images/login.css" rel="stylesheet" type="text/css" />
+<SCRIPT src="include/javascript/AC_RunActiveContent.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">
+<!--
+    function ChangIterm(n) {
+        for(var i=1;i<=2;i++){
+            var curC=document.getElementById("tab_"+i);
+            var curB=document.getElementById("tab_t"+i);
+            if(n==i){
+                curC.style.display="block";
+                curB.className="thisiterm"
+            }else{
+                curC.style.display="none";
+                curB.className=""
+            }
+        } 
+    }
+	
+	//输入框状态
+	function inputAutoClear(ipt)
+	{
+	 	ipt.onfocus=function()
+	 	{if(this.value==this.defaultValue){this.value='';}};
+	 	ipt.onblur=function()
+	 	{if(this.value==''){this.value=this.defaultValue;}};
+	 	ipt.onfocus();
+	} 	
+//-->
+</script>
+</head>
+<body>
+<script type="text/javascript" src="images/topNav.js"></script>
+<div class="wrapper">
+  <div id="head">
+  <div class="htitle">
+      <h1> <a href="http://28.yajienet.com">雅杰28在线客服官方网站</a> </h1>
+    </div>
+    <div style="padding-top: 10px; padding-right: 17px;"></div>
+    <div style="padding-top: 20px; padding-right: 18px;font-size:14px;">全国统一服务热线：<font color=red><strong> 400-004-1991</strong></font></div>
+  </div>
+  <div id="navo">
+    <div id="navi">
+      <div id="menu">
+        <ul id="nav">
+          <li><a href="/"><span>首 页 </span></a></li>
+          <li class="menu_line"/>
+          <li><a class="" href="reg.php"><span>注册试用</span></a></li>
+            <li class='menu_line'></li>
+			          
+          <li><a class="" href="download.php"><span>软件下载</span></a></li>
+            <li class='menu_line'></li>
+          
+          <li><a class="" href="function.php"><span>功能介绍</span></a></li>
+            <li class='menu_line'></li>
+          
+          <li><a class="" href="price.php"><span>资费套餐</span></a></li>
+            <li class='menu_line'></li>
+          
+          <li><a class="" href="agent/"><span>代理专区</span></a></li>
+            <li class='menu_line'></li>
+          
+          <li><a class="" href="news.php"><span>新闻资讯</span></a></li>
+            <li class='menu_line'></li>
+          
+          <li><a class="" href="help.php"><span>帮助中心</span></a></li>
+            <li class='menu_line'></li>
+          
+          <li><a class="" href="about.php"><span>关于我们</span></a></li>
+            <li class='menu_line'></li>           
+          
+          <li><a class="" href="service.php"><span>客户服务</span></a></li>
+            <li class='menu_line'></li>           
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div style="margin: 0pt auto; width: 100%; height: auto;">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td><div style="width: 682px; height: 240px;">
+<!--焦点图开始-->
+      <SCRIPT type=text/javascript>
+var files='',links='', texts='';<!--pic:{$row=6 $type=images}-->
+files+='|images/a.jpg|images/b.jpg|images/c.jpg|images/d.jpg';links+='';texts+='|[pic:title]';<!--pic-->
+files=files.substring(1);links=links.substring(1);texts=texts.substring(1);
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0','width','682','height','240','src','images/bcastr3','quality','high','wmode','transparent','pluginspage','http://www.macromedia.com/go/getflashplayer','bgcolor','#000000','menu','false','flashvars','bcastr_file='+files+'&bcastr_link='+links+'&AutoPlayTime=5&Tween=3','movie','images/bcastr3' ); //end AC code
+</SCRIPT>
+      <NOSCRIPT>
+      <OBJECT 
+      codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0 
+      height=240 width=682 classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM NAME="movie" VALUE="images/bcastr3.swf"><PARAM NAME="quality" VALUE="high"><PARAM NAME="bgcolor" VALUE="#000000"><PARAM NAME="menu" VALUE="false"><PARAM NAME="FlashVars" VALUE="bcastr_file='+files+'&amp;bcastr_link='+links+'&amp;AutoPlayTime=5&amp;Tween=3"><PARAM NAME="wmode" VALUE="transparent">
+                                                <embed src="images/bcastr3.swf" 
+      width="682" height="240" quality="high" 
+      pluginspage="http://www.macromedia.com/go/getflashplayer" 
+      type="application/x-shockwave-flash" bgcolor="#000000" menu="false" 
+      flashvars="bcastr_file='+files+'&amp;bcastr_link='+links+'&amp;AutoPlayTime=5&amp;Tween=3" 
+      wmode="transparent"></embed>
+</OBJECT></NOSCRIPT><!--焦点图结束-->
+            </div></td>
+          <td>
+      <div id="download">
+              <div id="down">
+                <a class="download_btn" target="_blank" href="download/28kf.exe" title="点击立即下载"></a>
+                <div style="margin-top:32px;">版本信息：安装版(2012-10-01)<br/>
+                  软件大小：<strong style="color:#FF0000; font-weight:normal;">4.03MB</strong><br />
+                  支持平台：win2000/XP/Vista/Windows 7 <br />
+                更新时间：2012年10月01日</div>
+              </div>
+            </div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="wrapper mT5">
+  <div id="dedenews">
+    <div id="newtitle" class="fLeft">{lang login_title}</div>
+    <div id="news" class="fLeft">
+        <script type="text/javascript">
+          function checkloginform(){
+            if(loginform.companyid.value.length<1){
+              alert('{lang login_error_company}');
+              loginform.companyid.focus();
+              return false;
+            }
+            if(loginform.username.value.length<1){
+              alert('{lang login_error_username}');
+              loginform.username.focus();
+              return false;
+            }
+            if(loginform.password.value.length<1){
+              alert('{lang login_error_password}');
+              loginform.password.focus();
+              return false;
+            }
+            return true;
+          }
+          function QuickTalk(){
+            var text = prompt('{lang mq_input}','{$mycompanyqq}');
+            if(text){
+              if(isNaN(text) || text<{$MQStart}){
+                alert('{lang mq_err_no}');
+              }else{
+                window.open('kf.php?mod=client&mq='+text,'','');
+              }
+            }
+          }
+        </script>
+        <form name="loginform" action="member/login.php" method="post" onsubmit="return checkloginform()">
+      <ul>
+        <li><span>{lang login_company}</span> <input type="text" class=input2 name="companyid" size="12" maxlength="20"></li>
+<li><span>{lang login_username}</span> <input type="text" class=input2 name="username" size="12" maxlength="20"></li>
+<li><span>{lang login_password}</span> <input type="password" class=input2 name="password" size="12" maxlength="20"></li>
+<li><input type="image" src="images/login.jpg"/></li>
+<li></li>
+<li><a onclick="javascript:getpassword('member/getpassword.php','',400,300);" style="cursor:pointer"><font color="#FF0000">找回密码？</font></a></li>
+      </ul>
+        </form>
+<script language="JavaScript" type="text/JavaScript">
+function getpassword(url,name,iWidth,iHeight)
+{
+var url; //转向网页的地址;
+var name; //网页名称，可为空;
+var iWidth; //弹出窗口的宽度;
+var iHeight; //弹出窗口的高度;
+var iTop = (window.screen.availHeight-30-iHeight)/2; //获得窗口的垂直位置;
+var iLeft = (window.screen.availWidth-10-iWidth)/2; //获得窗口的水平位置;
+window.open(url,name,'height='+iHeight+',,innerHeight='+iHeight+',width='+iWidth+',innerWidth='+iWidth+',top='+iTop+',left='+iLeft+',toolbar=no,menubar=no,scrollbars=auto,resizeable=no,location=no,status=no');
+}
+</script>
+
+   </div>
+    <div id="newright" class="fRight"></div>
+  </div>
+</div>

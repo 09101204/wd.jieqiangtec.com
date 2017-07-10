@@ -1,0 +1,313 @@
+2016-07-17 00:05:34 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468685134 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468685134 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+msgid : 6307954619058131933 ;
+redirection :  ;
+source :  ;
+
+2016-07-17 00:05:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 00:05:34 response :
+------------
+
+2016-07-17 00:11:31 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468685491 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468685491 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&p=commission&m=ewei_shop&do=plugin ;
+msgid : 6307956152361456628 ;
+redirection :  ;
+source :  ;
+
+2016-07-17 00:11:31 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 00:11:31 response :
+------------
+
+2016-07-17 01:09:15 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468688955 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468688955 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6307971030128173893 ;
+redirection :  ;
+source :  ;
+
+2016-07-17 01:09:15 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-17 01:09:15 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : text ;
+Content : 123/大兵 ;
+
+2016-07-17 01:25:11 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468689911 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468689911 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-17 01:25:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 01:25:11 response :
+------------
+
+2016-07-17 01:25:12 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468689911 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468689911 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-17 01:25:12 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 01:25:12 response :
+------------
+
+2016-07-17 09:34:09 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468719248 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468719248 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-17 09:34:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 09:34:09 response :
+------------
+
+2016-07-17 13:07:00 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468732020 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468732020 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-17 13:07:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 13:07:00 response :
+------------
+
+2016-07-17 23:30:46 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468769446 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468769446 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-17 23:30:46 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 23:30:46 response :
+------------
+
+2016-07-17 23:31:37 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468769496 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468769496 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-17 23:31:37 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 23:31:37 response :
+------------
+
+2016-07-17 23:31:55 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468769515 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468769515 ;
+msgtype : event ;
+msgid : 406764989 ;
+status : success ;
+
+2016-07-17 23:31:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 23:31:55 response :
+------------
+
+2016-07-17 23:32:11 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468769531 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468769531 ;
+msgtype : event ;
+msgid : 406764991 ;
+status : success ;
+
+2016-07-17 23:32:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 23:32:11 response :
+------------
+
+2016-07-17 23:33:33 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468769613 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468769613 ;
+msgtype : event ;
+msgid : 406764997 ;
+status : success ;
+
+2016-07-17 23:33:33 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-17 23:33:33 response :
+------------
+

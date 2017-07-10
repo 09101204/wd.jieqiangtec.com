@@ -1,0 +1,111 @@
+.button {
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 6px;
+	color: #000000;
+	background: #bedeff url(bg_button.gif) repeat-x;
+
+	/*for Mozilla*/
+ 	outline: 1px solid #296c89 ;
+	border: 1px solid #FFFFFF !important;
+	height: 24px !important;
+	line-height: 22px !important;
+
+	/*for IE7*/
+	> border: 1px solid #296C89 !important;
+	> height: 26px !important;
+	> line-height: 20px !important;
+
+	/*for IE*/
+	border: 1px solid #296C89 ;
+	height: 26px;
+	line-height: 20px;
+}
+/*分页样式*/
+.page_url{
+	background: #CAE5FF;
+	border-bottom: 1px solid #FFFFFF;
+	clear: left;
+	float: left;
+	font: 12px/28px "宋体";
+	height: 28px;
+	margin: 1px 1px 0px 0px;
+	width: 676px;
+}
+.page_url .no {
+	background: #F4FAFF;
+	border: 1px solid #99BEDD;
+	float: left;
+	font: 11px/16px Tahoma;
+	height: 16px;
+	margin: 5px 0px 1px 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.page_url .stat {
+	background: #F4FAFF;
+	border: 1px solid #99BEDD;
+	float: left;
+	font: 11px/16px Tahoma;
+	height: 16px;
+	margin: 5px 4px 1px 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.page_url li {
+	background: #FFFFCC;
+	border: 1px solid #99BEDD;
+	color: #996600;
+	display: block;
+	float: left;
+	font: 11px/16px Tahoma;
+	height: 16px;
+	margin: 5px 1px 1px;
+	width: 16px;
+}
+
+.page_url li a {
+  text-decoration: none;
+	background: #F4FAFF;
+	color: #0099CC;
+	display: block;
+	font: 11px/16px Tahoma;
+	height: 16px;
+	padding: 0px;
+	width: 16px;
+}
+
+.page_url li a:visited {
+	background: #F4FAFF;
+	color: #0099CC;
+	display: block;
+	height: 16px;
+	width: 16px;
+}
+
+.page_url li a:hover {
+	background: #FFFFCC;
+	color: #996600;
+	display: block;
+	float: left;
+	height: 16px;
+	width: 16px;
+}
+
+.page_url ol {
+	display: block;
+	float: left;
+}
+.maintip{
+  padding-left:20px;
+}
+.maintip ol{
+	display: block;
+  line-height:20px;
+	margin:0px 0px 0px 20px;
+}
+.maintip li{
+  line-height:20px;
+  color:#ff0000;
+}

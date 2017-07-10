@@ -1,0 +1,125 @@
+2016-11-10 07:30:24 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478734224 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478734224 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-11-10 07:30:24 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-10 07:30:24 response :
+------------
+
+2016-11-10 07:36:08 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478734568 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478734568 ;
+msgtype : event ;
+msgid : 408187692 ;
+status : success ;
+
+2016-11-10 07:36:08 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-10 07:36:08 response :
+------------
+
+2016-11-10 07:36:09 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478734569 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478734569 ;
+msgtype : event ;
+msgid : 408187693 ;
+status : success ;
+
+2016-11-10 07:36:09 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-10 07:36:09 response :
+------------
+
+2016-11-10 07:37:00 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478734620 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478734620 ;
+msgtype : event ;
+msgid : 408187699 ;
+status : success ;
+
+2016-11-10 07:37:00 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-10 07:37:00 response :
+------------
+
+2016-11-10 07:37:13 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478734633 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478734633 ;
+msgtype : event ;
+msgid : 408187701 ;
+status : success ;
+
+2016-11-10 07:37:13 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-10 07:37:13 response :
+------------
+

@@ -1,0 +1,6 @@
+<?php
+//Î¢ÐÅÉÌ³Ç
+if (!defined('IN_IA')) {
+    exit('Access Denied');
+}
+global $_W, $_GPC;

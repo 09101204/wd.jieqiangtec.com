@@ -1,0 +1,55 @@
+
+    <div class="left">
+      <div class="title"><span>>> {lang login_title}</span></div>
+      <div class="text login">
+        <script type="text/javascript">
+          function checkloginform(){
+            if(loginform.companyid.value.length<1){
+              alert('{lang login_error_company}');
+              loginform.companyid.focus();
+              return false;
+            }
+            if(loginform.username.value.length<1){
+              alert('{lang login_error_username}');
+              loginform.username.focus();
+              return false;
+            }
+            if(loginform.password.value.length<1){
+              alert('{lang login_error_password}');
+              loginform.password.focus();
+              return false;
+            }
+            return true;
+          }
+          function QuickTalk(){
+            var text = prompt('{lang mq_input}','{$mycompanyqq}');
+            if(text){
+              if(isNaN(text) || text<{$MQStart}){
+                alert('{lang mq_err_no}');
+              }else{
+                window.open('kf.php?mod=client&mq='+text,'','');
+              }
+            }
+          }
+        </script>
+        <form name="loginform" action="member/login.php" method="post" target="_blank" onsubmit="return checkloginform()">
+          <div><span>{lang login_company}</span> <input type="text" class="a" name="companyid" size="12" maxlength="20"></div>
+          <div><span>{lang login_username}</span> <input type="text" class="a" name="username" size="12" maxlength="20"></div>
+          <div><span>{lang login_password}</span> <input type="password" class="a" name="password" size="12" maxlength="20"></div>
+          <div><input type="image" src="images/s_1.gif"/>
+          <a href="reg.php" target="_blank"><img src="images/s_2.gif"/></a></div>
+        </form>
+        <a href="javascript:QuickTalk()">{lang mq_title}</a>
+      </div>
+      <div class="title title2"><span>>> {lang nav_news}</span></div>
+      <div class="text"><!--{loop $news $rs}-->
+        <div class="li"><a href="news.php?id=$rs[id]" target="_blank">$rs[title]</a></div><!--{/loop}-->
+      </div>
+      <div class="title title2"><span>>> {lang nav_help}</span></div>
+      <div class="text">
+        <ul><!--{loop $help $rs}-->
+          <li><a href="help.php?id=$rs[id]" target="_blank">$rs[title]</a></li><!--{/loop}-->
+        </ul>
+      </div>
+      <div class="line"></div>
+    </div>

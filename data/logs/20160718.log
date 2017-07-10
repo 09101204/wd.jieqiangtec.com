@@ -1,0 +1,100 @@
+2016-07-18 14:34:37 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468823676 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468823676 ;
+msgtype : event ;
+msgid : 406769172 ;
+status : success ;
+
+2016-07-18 14:34:37 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-18 14:34:37 response :
+------------
+
+2016-07-18 14:34:51 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468823690 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468823690 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 406523869 ;
+
+2016-07-18 14:34:51 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-18 14:34:51 response :
+------------
+
+2016-07-18 14:40:49 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468824049 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468824049 ;
+msgtype : event ;
+msgid : 406769603 ;
+status : success ;
+
+2016-07-18 14:40:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-18 14:40:49 response :
+------------
+
+2016-07-18 14:40:57 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468824056 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468824056 ;
+msgtype : event ;
+msgid : 406769614 ;
+status : success ;
+
+2016-07-18 14:40:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-18 14:40:57 response :
+------------
+

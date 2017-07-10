@@ -1,0 +1,117 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: "宋体"; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+}
+#MainDiv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; MARGIN: 0px auto; WIDTH: 956px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.ContentDiv1 {
+	MARGIN-TOP: 0px; FLOAT: left; WIDTH: 956px
+}
+#LoginDiv {
+	POSITION: relative; BACKGROUND-COLOR: #000000
+}
+.content1 {
+	WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 308px; BACKGROUND-COLOR: #f7fdf3
+}
+#LoginBox {
+	BORDER-RIGHT: #bddead 1px solid; Z-INDEX: 30px; RIGHT: 50px; BORDER-LEFT: #c1e49a 1px solid; WIDTH: 260px; BORDER-BOTTOM: #bddead 1px solid; POSITION: absolute; TOP: 0px; HEIGHT: 300px; BACKGROUND-COLOR: #ffffff
+}
+.Login_tit {
+	BACKGROUND-IMAGE: url(LoginBox_tit.gif); WIDTH: 260px; CURSOR: hand; HEIGHT: 100px
+}
+.Login_Cont {
+	FLOAT: left; MARGIN: 0px; WIDTH: 260px
+}
+.Login_Cont .li_ud {
+	PADDING-LEFT: 25px; PADDING-TOP: 15px
+}
+.Login_Cont .li_bt {
+	PADDING-LEFT: 38px; PADDING-BOTTOM: 0px; PADDING-TOP: 25px
+}
+.Login_Cont .li_line {
+	CLEAR: both; MARGIN-TOP: 20px; PADDING-LEFT: 30px! important; BACKGROUND-IMAGE: url(LoginBox_line.gif); MARGIN-LEFT: 30px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+.Login_Cont .li_input {
+	MARGIN-TOP: 0px;text-align:center;
+}
+.Inpt {
+	BACKGROUND: url(bg_btn1.gif) #fff repeat-x;BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 150px; PADDING-TOP: 2px; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 20px
+}
+.Inpt2 {
+	BACKGROUND: url(bg_btn1.gif) #fff repeat-x;BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #7f9db9 1px solid;PADDING-TOP: 2px; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 20px
+}
+.btn1 {
+	BORDER-RIGHT: #e3e3e3 1px solid; BORDER-TOP: #e3e3e3 1px solid; BORDER-LEFT: #e3e3e3 1px solid; WIDTH: 100px; BORDER-BOTTOM: #e3e3e3 1px solid; HEIGHT: 24px;LINE-HEIGHT: 24px;
+}
+.btn {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; FONT-SIZE: 12px; BACKGROUND: url(../images/bg_btn1.gif) #fff repeat-x; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 100px; CURSOR: pointer; COLOR: #333333; LINE-HEIGHT: 24px; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 24px
+}
+.btn2 {
+	BORDER-RIGHT: #ccff00 1px solid; BORDER-TOP: #ccff00 1px solid; BORDER-LEFT: #ccff00 1px solid; WIDTH: 100px; BORDER-BOTTOM: #ccff00 1px solid; HEIGHT: 24px;LINE-HEIGHT: 24px;
+}
+#FuncDiv {
+	Z-INDEX: 33; LEFT: 11px; WIDTH: 450px; POSITION: absolute; TOP: 96px
+}
+.speed {
+	FLOAT: left; MARGIN: 0px; WIDTH: 500px
+}
+.speed .icon {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; WIDTH: 47px; PADDING-TOP: 5px
+}
+.speed .tit {
+	PADDING-TOP: 13px
+}
+.speed .cont {
+	PADDING-TOP: 5px
+}
+.green0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #1e4e10; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+	}
+.safe {
+	FLOAT: left; MARGIN: 0px; WIDTH: 500px
+}
+.safe .icon {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; WIDTH: 47px
+}
+.safe .tit {
+	PADDING-TOP: 7px
+}
+.safe .cont {
+	PADDING-TOP: 5px
+}
+.attach {
+	FLOAT: left; MARGIN: 0px; WIDTH: 500px
+}
+.attach .icon {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FLOAT: left; WIDTH: 47px
+}
+.attach .tit {
+	PADDING-TOP: 7px
+}
+.attach .cont {
+	PADDING-TOP: 5px
+}
+.bt {
+	FLOAT: left; WIDTH: 500px; TEXT-ALIGN: center
+}
+.content12 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; MARGIN: 0px auto; WIDTH: 956px; PADDING-TOP: 292px; TEXT-ALIGN: left
+}
+A.green0:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #1e4e10; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.green00 {
+	FONT-SIZE: 12px; COLOR: #333; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.green00:hover {
+	FONT-SIZE: 12px; COLOR: #1e4e10; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}

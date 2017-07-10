@@ -1,0 +1,69 @@
+#invite_table{
+  width:400px;
+  height:135px;
+  background:url(bg.gif) no-repeat;
+  cursor:default;
+}
+#invite_top{
+  float:left;
+  text-align:left;
+  padding-left:130px;
+  margin-top:10px;
+  display:inline;
+  width:390px;
+  height:23px;
+  font-size: 14px;
+  font-weight:bold;
+  color:#FF0000;
+  line-height:20px;
+}
+#invite_middle{
+  float:left;
+  width:400px;
+  height:112px;
+}
+#invite_content{
+  float:left;
+  width:260px;
+  height:52px;
+  margin:0px 0px 0px 130px;
+  display:inline;
+  overflow:hidden;
+  text-align:left;
+}
+#invite_text{
+  height:50px;
+  font-size:12px;
+  line-height:20px;
+  word-break:break-all;
+  overflow:hidden;
+  padding-top:5px;
+}
+#invite_button{
+  float:left;
+  margin:0px 0px 0px 130px;
+  display:inline;
+  width:260px;
+  height:60px;
+  overflow:hidden;
+  text-align:left;
+}
+#invite_button img,#invite_button div{
+  cursor:pointer;
+}
+#invite_button_A{
+  float:left;
+  width:97px;
+  height:27px;
+  margin:10px 0px 0px 20px;
+  display:inline;
+  background:url(accept.gif) no-repeat;
+}
+#invite_button_B{
+  float:left;
+  width:97px;
+  height:27px;
+  margin:10px 0px 0px 20px;
+  display:inline;
+  background:url(next.gif) no-repeat;
+}

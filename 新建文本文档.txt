@@ -1,0 +1,2 @@
+Administrator@505M5L5M9J2WDO1 MINGW64 /d/www/users
+$ git clone https://github.com/1569501393/wd.jieqiangtec.com.git ./wd2.jieqiangtec.com

@@ -1,0 +1,261 @@
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103171182","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103167520","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103127275","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031211544","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837644","transAmt":"0.01","sign":"7b033e658dc6f6772b072894ab3a4ab3","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031211315","merchantId":"001015013101118","localOrderId":"27711","outOrderId":"2016103127275"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27711","merchantId":"001015013101118","notifyId":"837645","notifyTime":"20161031211553","outAcctId":"12","outOrderId":"2016103127275","sign":"3f121dc99ea15d3264672903c3bdb55b","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031211315"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27711","merchantId":"001015013101118","notifyId":"837645","notifyTime":"20161031211553","outAcctId":"12","outOrderId":"2016103127275","sign":"3f121dc99ea15d3264672903c3bdb55b","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031211315"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031211830","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837646","transAmt":"0.01","sign":"783cb9b2084c1cf226466e9c6f61a494","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031211315","merchantId":"001015013101118","localOrderId":"27711","outOrderId":"2016103127275"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103112743","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031212530","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837647","transAmt":"0.01","sign":"82750d5aa3a5a112bc6b562b305e141e","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031211315","merchantId":"001015013101118","localOrderId":"27711","outOrderId":"2016103127275"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103140090","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103131695-35","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031213752","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837648","transAmt":"0.01","sign":"d0e07d7ef256863e33a09ac362c8031b","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031213546","merchantId":"001015013101118","localOrderId":"27714","outOrderId":"2016103131695-35"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27714","merchantId":"001015013101118","notifyId":"837649","notifyTime":"20161031213758","outAcctId":"12","outOrderId":"2016103131695-35","sign":"bb22ac0ceba608b48eae1c13607d2be7","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031213546"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27714","merchantId":"001015013101118","notifyId":"837649","notifyTime":"20161031213758","outAcctId":"12","outOrderId":"2016103131695-35","sign":"bb22ac0ceba608b48eae1c13607d2be7","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031213546"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031214030","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837650","transAmt":"0.01","sign":"c3ec7abd7cf95d38a5a6fd81e88e1c12","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031213546","merchantId":"001015013101118","localOrderId":"27714","outOrderId":"2016103131695-35"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031214230","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837651","transAmt":"0.01","sign":"a10213b828436820f3cd24c8d2767ff4","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031211315","merchantId":"001015013101118","localOrderId":"27711","outOrderId":"2016103127275"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031214730","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837652","transAmt":"0.01","sign":"736559dc083f4e1e683243f616d6a001","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031213546","merchantId":"001015013101118","localOrderId":"27714","outOrderId":"2016103131695-35"}======  
+
+
+file in alipay_test son_encode($_POST)==="_POST"======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103129691-36","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031220235","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837653","transAmt":"0.01","sign":"51ee37566236f6c1c9fffb752995b217","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_POST)==={"notifyTime":"20161031220235","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837653","transAmt":"0.01","sign":"51ee37566236f6c1c9fffb752995b217","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837654","notifyTime":"20161031220240","outAcctId":"12","outOrderId":"2016103129691-36","sign":"5297d7248bb7202efe6c7b096b568787","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837654","notifyTime":"20161031220240","outAcctId":"12","outOrderId":"2016103129691-36","sign":"5297d7248bb7202efe6c7b096b568787","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031220430","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837656","transAmt":"0.01","sign":"955b939faaf93b87db824588f53c9fc8","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031213546","merchantId":"001015013101118","localOrderId":"27714","outOrderId":"2016103131695-35"}======  
+
+
+file in alipay_test son_encode($_POST)==={"notifyTime":"20161031220430","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837656","transAmt":"0.01","sign":"955b939faaf93b87db824588f53c9fc8","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031213546","merchantId":"001015013101118","localOrderId":"27714","outOrderId":"2016103131695-35"}======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031220530","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837657","transAmt":"0.01","sign":"ee920611b05b971eb4129c877eadaa52","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_POST)==={"notifyTime":"20161031220530","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837657","transAmt":"0.01","sign":"ee920611b05b971eb4129c877eadaa52","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27714","merchantId":"001015013101118","notifyId":"837649","notifyTime":"20161031213758","outAcctId":"12","outOrderId":"2016103131695-35","sign":"bb22ac0ceba608b48eae1c13607d2be7","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031213546"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27714","merchantId":"001015013101118","notifyId":"837649","notifyTime":"20161031213758","outAcctId":"12","outOrderId":"2016103131695-35","sign":"bb22ac0ceba608b48eae1c13607d2be7","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031213546"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27714","merchantId":"001015013101118","notifyId":"837649","notifyTime":"20161031213758","outAcctId":"12","outOrderId":"2016103131695-35","sign":"bb22ac0ceba608b48eae1c13607d2be7","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031213546"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27714","merchantId":"001015013101118","notifyId":"837649","notifyTime":"20161031213758","outAcctId":"12","outOrderId":"2016103131695-35","sign":"bb22ac0ceba608b48eae1c13607d2be7","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031213546"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_POST)===[]======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","inputCharset":"UTF-8","localOrderId":"27715","merchantId":"001015013101118","notifyId":"837655","notifyTime":"20161031220324","outAcctId":"12","outOrderId":"2016103129691-36","sign":"1d31bd9648d2b573b51a114a07f2bf9c","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","transAmt":"0.01","transTime":"20161031215850"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031221230","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837658","transAmt":"0.01","sign":"9cbc962bc78167a14cd59a970c21a185","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_POST)==={"notifyTime":"20161031221230","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837658","transAmt":"0.01","sign":"9cbc962bc78167a14cd59a970c21a185","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031222930","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837659","transAmt":"0.01","sign":"96dd5d214f9ecb999de9bd4781430dd8","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031211315","merchantId":"001015013101118","localOrderId":"27711","outOrderId":"2016103127275"}======  
+
+
+file in alipay_test son_encode($_POST)==={"notifyTime":"20161031222930","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837659","transAmt":"0.01","sign":"96dd5d214f9ecb999de9bd4781430dd8","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031211315","merchantId":"001015013101118","localOrderId":"27711","outOrderId":"2016103127275"}======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test son_encode($_REQUEST)==={"code":"alipay_test","notifyTime":"20161031222940","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837660","transAmt":"0.01","sign":"16016b3d4d34950ecfd22633600882e2","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_POST)==={"notifyTime":"20161031222940","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","tradeStatus":"2","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","notifyId":"837660","transAmt":"0.01","sign":"16016b3d4d34950ecfd22633600882e2","inputCharset":"UTF-8","outAcctId":"12","transTime":"20161031215850","merchantId":"001015013101118","localOrderId":"27715","outOrderId":"2016103129691-36"}======  
+
+
+file in alipay_test son_encode($_GET)==={"code":"alipay_test"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103163547-37","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103103006-38","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103114611-39","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103197783-40","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016103191827-41","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in alipay_test json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016110124159-42","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=alipay_test","signType":"MD5","outAcctId":"12"}======  
+
+
+file in ysxpay json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016110158079-43-490","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=ysxpay","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=ysxpay","signType":"MD5","outAcctId":"12"}======  
+
+
+file in ysxpay json_encode($parameter)==={"service":"directPay","inputCharset":"UTF-8","merchantId":"001015013101118","payMethod":"commonPay","outOrderId":"2016110122246-44-990","subject":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","body":"\u5370\u82b1\u8fde\u5e3d\u5f00\u886b\u536b\u8863 \u590d\u53e4\u5b57\u6bcd ","transAmt":"0.01","notifyUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=ysxpay","returnUrl":"http:\/\/wd.jieqiangtec.com\/ecshop\/respond.php?code=ysxpay","signType":"MD5","outAcctId":"12"}======  
+
+

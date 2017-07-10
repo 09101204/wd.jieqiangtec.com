@@ -1,0 +1,24 @@
+2017-04-05 16:19:46 trace :
+------------
+Array:
+from : odqkOv1i201AXIU66o3Mdsv9GFFQ ;
+to : gh_2187ab593506 ;
+time : 1491380386 ;
+type : event ;
+event : subscribe ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv1i201AXIU66o3Mdsv9GFFQ ;
+createtime : 1491380386 ;
+msgtype : event ;
+eventkey :  ;
+
+2017-04-05 16:19:46 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-04-05 16:19:46 response :
+------------
+

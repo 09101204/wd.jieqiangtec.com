@@ -1,0 +1,49 @@
+2017-03-03 03:43:22 trace :
+------------
+Array:
+from : odqkOv2duro1pL0hf-j_Mb2UZjtw ;
+to : gh_2187ab593506 ;
+time : 1488483801 ;
+type : event ;
+event : annual_renew ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv2duro1pL0hf-j_Mb2UZjtw ;
+createtime : 1488483801 ;
+msgtype : event ;
+expiredtime : 1496226454 ;
+
+2017-03-03 03:43:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-03-03 03:43:22 response :
+------------
+
+2017-03-03 21:43:03 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1488548583 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1488548583 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-03-03 21:43:03 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-03-03 21:43:03 response :
+------------
+

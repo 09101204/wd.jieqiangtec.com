@@ -1,0 +1,49 @@
+#mloginform {
+	height: 202px!important;
+	height: 210px;
+	width: 342px;
+	padding-left: 18px;
+}
+*+html #mloginform {height: 210px!important;}
+
+#mloginform ul {
+	list-style-type: none;
+}
+#mloginform ul li {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#mloginform ul li span {
+	font-size: 12px;
+	font-weight: bold;
+	color: #777171;
+}
+#mloginform ul li .text {
+	border: 1px solid #DEDDDD;
+	line-height: 20px;
+	height: 18px;
+	vertical-align: middle;
+	padding-top: 5px;
+	width: 240px;
+}
+#mloginform ul li .vtext {
+	border: 1px solid #DEDDDD;
+	line-height: 20px;
+	height: 18px;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+#mloginform ul li .button2 {
+	background-attachment: scroll;
+	background-image: url(login_button.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 28px;
+	width: 71px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	vertical-align: super;
+	margin-left: 40px;
+}

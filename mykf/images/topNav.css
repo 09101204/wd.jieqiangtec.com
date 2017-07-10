@@ -1,0 +1,176 @@
+/**************************************
+     网站公用头部(topNav)
+      Update:2010-01-15
+  Author:Networker  From:DesDev INC.
+***************************************/
+body {
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+img{
+	border:none;
+	}
+.buttonico{
+	vertical-align:text-bottom;
+	margin-right:3px;
+	}
+	.buttonico1{
+	vertical-align:text-bottom;
+	float: left;
+    margin-left: 3px;
+	}
+.dedetoolbar{
+	width:100%;
+	background:url(top_bg.jpg) repeat-x;
+	height:30px;
+	line-height:30px;
+	}
+.dedetoolbar .commtopNav{
+	width:960px;
+	margin:0 auto;
+	line-height:31px;
+	overflow:hidden;
+}
+.dedetoolbar .commtopNav .commtopNav_left{
+	float:left;
+	padding-left:20px;
+	width:350px;
+	line-height:31px;
+	color:#0B65A7;
+}
+.dedetoolbar .commtopNav .commtopNav_right{
+  float:right;
+  overflow:hidden;
+}
+.dedetoolbar .commtopNav .commtopNav_left a,.dedetoolbar .commtopNav .commtopNav_left a:visited{
+	text-decoration:none;
+	color:#0B65A7;
+	}
+.dedetoolbar .commtopNav .commtopNav_left a:hover{
+	background:#0B65A7;
+	color:#fff;
+	}
+.webfx-menu, .webfx-menu * {
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+.webfx-menu-empty {
+	display:block;
+	font:Menu;
+	color:red;
+	height:22px;
+}
+/*下拉样式
+-------------------*/
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu {
+	position:absolute;
+	z-index:100;
+	visibility:	hidden;
+	width:76px;
+	background: url(menu_bg.gif) #F0F4F6 repeat-y;
+	border:1px solid #BED4E6;
+	padding:2px;
+	filter:	none;
+	line-height:24px;
+	text-align:center;
+	-moz-opacity:1;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu a {
+	display:block;
+	height:22px;
+	line-height:22px;
+    width:expression(constExpression(ieBox ? "100%" : "auto"));	/* should be ignored by mz and op */
+	text-decoration:none;
+	color:#0B65A7;
+	cursor:pointer;
+	border:0;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu a:visited {
+	color:#0B65A7;
+	border:0;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu a:hover, .webfx-menu a:visited:hover {
+	color:#0B65A7;
+	background:url(list_bg.gif) no-repeat;
+	border:0;
+	height:22px;
+	line-height:22px;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu span{
+	width:75px;
+	}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu a .arrow {/*三角号*/
+	border:0;
+	width:3px;
+	height:6px;
+	margin-top:8px;
+	margin-right:6px;
+	margin-left:3px;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu a img{
+    margin-top:2px;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu div{/*分隔线*/
+	height:0;
+    height:expression(constExpression(ieBox ? 2 : 0));
+	border-top:1px solid #D6DFE6;
+	overflow:hidden;
+	margin:2px 0;
+	font-size:0mm;
+}
+/*主导航*/
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar {
+	/*display:inline;*/
+	float:right;
+	text-align:right;
+	width:570px;
+	height:22px;
+	overflow:hidden;
+	margin-top:4px;
+	text-align:right;
+	color:#0B65A7;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar span{
+	display:inline-block;
+	width:91px;
+	padding-left:4px;
+	height:22px;
+	background:url(line1.gif) left no-repeat;
+	overflow:hidden;
+	text-align:center;
+	}
+	
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar span a{
+	color:#0B65A7;
+	/*display:inline-block;*/
+	display:block;
+	width:86px;
+	height:22px;
+	text-decoration:none;
+	line-height:22px;
+	/*vertical-align:middle;*/
+	}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar span a img{
+    margin-top:2px;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar span a:visited,
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar span a:visited:hover {
+	color:#0B65A7;
+	text-decoration:none;	
+	white-space:nowrap;
+}
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar span a:hover {
+    display:block;
+	color:#0B65A7;
+	width:86px;
+	/*vertical-align:middle;*/
+	background:url(top_link_bg.gif) left  no-repeat;
+}
+
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar a:active,
+.dedetoolbar .commtopNav .commtopNav_right .webfx-menu-bar a:focus {
+	-moz-outline:none;
+	outline:none;
+	ie-dummy:expression(this.hideFocus=true);
+}

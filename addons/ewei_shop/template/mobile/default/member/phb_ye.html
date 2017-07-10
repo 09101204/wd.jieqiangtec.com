@@ -1,0 +1,164 @@
+﻿{template 'common/header'}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>余额排行榜</title>
+	<link href="{$_W['siteroot']}app/resource/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="/addons/wwx_fxxt/style/new/foundation.css">
+	<link rel="stylesheet" type="text/css" href="/addons/wwx_fxxt/recouse/css/bottom.css?x={WWX_FXXT_VERSION}" />
+	<link rel="stylesheet" type="text/css" href="/addons/wwx_fxxt/style/new/common-v4.0.css">
+	<link rel="stylesheet" type="text/css" href="/addons/wwx_fxxt/style/new/person-v4.1.css">
+	<link rel="stylesheet" type="text/css" href="/addons/wwx_fxxt/images/style.css">
+	<link rel="stylesheet" type="text/css" href="/addons/wwx_fxxt/recouse/css/wwx.css">
+	
+	<script type='text/javascript' src='resource/js/lib/jquery-1.11.1.min.js'></script>
+<style>
+
+
+
+
+.btn-know{position:relative;text-shadow:none;font-weight:normal;text-decoration:none;font-size:16px;padding:0.5em 1.5em;display:inline-block;cursor:pointer;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF08B12D', endColorstr='#FF044F14');background-color:#08b12d;border:0;color:white;text-shadow:#02370e 0 -1px 0}
+.btn-know:hover{text-decoration:none}
+.btn-know:hover{background-color:#079927}
+.btn-know:active{background-color:#068a23}
+.btn-know[disabled]{filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);opacity:0.6;background:false;cursor:default;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.btn-know::-moz-focus-inner{padding:0 !important;margin:-1px !important}
+#poptip { position: fixed; top:40%;left:50%;width:160px;margin-left:-80px;height: 27px;background:#000; opacity: 0.7;filter:alpha(opacity=0.7); color:#fff;z-index: 999;  border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+#poptip_content { position: fixed; top:40%;left:50%;width:160px;margin-left:-80px; height: 27px; color:#fff;text-align:center;font-size:14px;z-index: 9909}
+</style>
+<script language='javascript'>
+function tip(msg,autoClose){
+	var div = $("#poptip");
+	var content =$("#poptip_content");
+	if(div.length<=0){
+		div = $("<div id='poptip'></div>").appendTo(document.body);
+		content =$("<div id='poptip_content'>" + msg + "</div>").appendTo(document.body);
+	}else{
+		content.html(msg);
+		content.show(); div.show();
+	}
+	if(autoClose) {
+		setTimeout(function(){
+			content.fadeOut(500);
+			div.fadeOut(500);
+		},1000);
+	}
+}
+function tip_close(){
+	$("#poptip").fadeOut(500);
+	$("#poptip_content").fadeOut(500);
+}
+</script>
+</head>
+<body style=" background-color:#FFC502;padding-top:0px; padding-bottom:0px;" class="body-gray my-memvers">
+<form class="form-horizontal" method="post" role="form">
+<input type="hidden" id="openid" value="" />
+<section style="background:#ff9900;margin-top:-17px;">
+	<img src="/addons/ewei_shop/static/images/999.jpg" border="0" width="100%">
+</section>
+
+
+<!--新建信息 -->
+<div class="order-main">
+		<div class="add-address img-rounded" id="addMsgPanel_New" style="margin-top:-10px;position:fixed;top:0;left:0;width:100%;height:110%;background:rgba(0, 0, 0, 0.7);display:none;z-index:20000;">
+			<div class="add-address-hd">发送新信息</div>
+			<div class="add-address-main">
+				<div class="form-group">
+					<div class="col-sm-12">
+						<textarea class="form-control" id="reason_New" name="reason_New" cols="60" rows="5" maxlength="200"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-sm-12">
+						<button type="button" class="btn btn-danger" onClick="saveMsgNew()">发送</button>
+						<button type="button" class="btn" onClick="addMsgNew();$('#addMsgPanel_New').hide();$('#openid').val('');">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+<div class="list-myorder" style="background:#ffffff;margin-top:-15px;">
+	<ul class="ul-product" style="color:#ffcc00;font-size:20px;">
+		{php $key=1}
+		{loop $list $member}
+			<li>
+            <span style="float:left;margin-right:10px;border-radius:3px;">{$key}.{if $key==1||$key==2||$key==3}{/if}</span>
+            <span style="float:right;margin-left:10px;border-radius:3px;"><img style="width:30px;height:42px;" src="/addons/wwx_fxxt/recouse/images/000{$key}.jpg" style="border-width:0px;"></span>
+				<span class="pic" onClick="newMsg('{$member["from_user"]}');"><img src="{php echo tomedia($member['avatar']);}" onerror="this.src='/addons/ewei_shop/static/images/notoo.png'"></span>
+				<div class="text">
+					<span class="pro-name">昵称：{$member['nickname']}</span>
+						<div class="pro-pric" style="color:#ff9900;font-size:25px;"><span>余额：</span>{php echo number_format($member['credit2'],0,'','')}</div>
+				</div>
+			</li>
+		{php $key++}
+		{/loop}
+	</ul>
+</div>
+</form>
+
+<script type="text/javascript" src="/addons/wwx_fxxt/static/js/cascade.js?x=14"></script>
+<script type="text/javascript">
+	var from='{$from}';
+	var returnurl = '{$returnurl}';
+	function saveMsgNew() {
+		var reason = $('#reason_New').val();
+		{if empty($from_user)}
+			msgbox('提示','您还没登录!','',null,0,'error');
+			return false;
+		{/if}
+		if (!reason) {
+			msgbox('提示','请输入消息内容!','',null,0,'error');
+			return false;
+		} tip("正在处理数据...");
+		$.post('{php echo $this->createMobileUrl('mymessage')}', {
+			'op' : 'postnew',
+			'reason' : reason,
+			'openid' : $('#openid').val()
+		}, function(s) {
+			tip_close();
+			if (s.message == -1) {
+				msgbox('提示','不能给自己发送消息!','',tiaozhuan(),0,'error');
+			}
+			if (s.message == 0) {
+				msgbox('提示','消息发送失败!','',tiaozhuan(),0,'error');
+			}
+			if (s.message > 0) {
+				msgbox('提示','消息发送成功!','',tiaozhuan(),0,'true');
+			}
+		}, 'json');
+	}
+
+function tiaozhuan() {
+	$('#addMsgPanel_New').hide();
+	//location.href = "{php echo $this->createMobileUrl('mymessage')}";
+}
+
+function addMsgNew() {
+	$('#addMsgPanel_New').show();
+	$('#reason_New').val('');
+	$('#openid').val('');
+}
+var isdef = 0;
+
+function newMsg(openid) {   
+	{if empty($cfg['Themessage'])}
+		msgbox('提示','管理员已经关闭了排行榜聊天!','',null,0,'error');
+		return false;
+	{/if}
+    tip("正在处理数据...");
+	$('#addMsgPanel_New').show();
+	$('#openid').val(openid);
+	tip_close();
+}
+</script>
+<div align="center"><span style="color:#fff;font-size:20px;">赶紧加油获得更多积分上榜吧</span></div>
+{php $show_footer=true}
+{php $footer_current='member'}
+{template 'common/footer'}

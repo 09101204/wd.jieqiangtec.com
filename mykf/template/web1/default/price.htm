@@ -1,0 +1,122 @@
+<div class="wrapper mT5">
+  <div class="l_left">
+    <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>升级公告</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="update.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $Update $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="Update.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  <div class="l_leftjj"></div>
+  </div>
+  <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>常见问题</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="help.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $help $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="help.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="l_right">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>{$title_}</h2>
+          </span></span>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="pfeature clear">
+<table border="0" cellspacing="1" cellpadding="1">
+        <tr align="center" class="table1_bg">
+          <td width="30%" height="20">名称</td>
+          <td width="15%">资费</td>
+          <td width="55%">功能简介</td>
+        </tr>
+        <tr align="center" class="table1_content" style="color:#ff0000">
+          <td>全功能</td>
+          <td>{$price_allfun}元</td>
+          <td align="left">在有效期内享有所有高级功能</td>
+        </tr>
+        <tr align="center" class="table1_content" style="color:#ff0000">
+          <td>标准续费价格</td>
+          <td>{$price_days1}元/每{$PriceOne[0]}</td>
+          <td align="left">普通用户的{$PriceOne[0]}续费价格</td>
+        </tr>
+        <tr align="center" class="table1_content" style="color:#ff0000">
+          <td>全功能续费价格</td>
+          <td>{$price_days2}元/每{$PriceOne[0]}</td>
+          <td align="left">全功能用户的{$PriceOne[0]}续费价格</td>
+        </tr>
+        <tr align="center" class="table1_content" style="color:#ff0000">
+          <td>席位价格</td>
+          <td>{$price_sort}元</td>
+          <td align="left">每增加一个最大席位数所需费用</td>
+        </tr>
+        <tr align="center" class="table1_content" style="color:#ff0000">
+          <td>客服价格</td>
+          <td>{$price_worker}元</td>
+          <td align="left">每增加一个最大客服数所需费用</td>
+        </tr>
+        <!--{loop $price $rs}-->
+        <tr align="center" <!--{if $rs[price]>0}--> style="color:#0000ff"<!--{/if}-->>
+          <td>{$rs[title]}</td>
+          <td>{echo $rs[price]>0 ? $rs[price].'元/'.($rs[days]>0?$rs[days].'天':'每天'):'免费'}</td>
+          <td align="left">{$rs['content']}</td>
+        </tr><!--{/loop}-->
+        </table></div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,414 @@
+2016-08-15 12:15:15 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471234515 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471234515 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-08-15 12:15:15 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:15:15 response :
+------------
+
+2016-08-15 12:15:55 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471234555 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471234555 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com#wechat_redirect ;
+msgid : 6318904298877171201 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:15:55 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:15:55 response :
+------------
+
+2016-08-15 12:39:18 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471235958 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471235958 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-08-15 12:39:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:39:18 response :
+------------
+
+2016-08-15 12:46:09 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236369 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236369 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6318912089947846373 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:46:09 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 23 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-08-15 12:46:09 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-08-15 12:47:50 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236469 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236469 ;
+msgtype : text ;
+content : 签到 ;
+msgid : 6318912519444576004 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:47:50 params :
+------------
+Array:
+message : Array ;
+module : meepo_nsign ;
+rule : 24 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-08-15 12:47:50 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-08-15 12:48:08 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236488 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236488 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=auth&a=forward&uniacid=4&__auth=eyJvcGVuaWQiOiJvZHFrT3YzeWlpd1MwNEwzdWdSaFQ2ZEhKLXpjIiwiYWNpZCI6IjQiLCJ0aW1lIjoxNDcxMjM2MzY5LCJoYXNoIjoiZTk4OTUyNGJiNDZmYjQ4NDgzZTcwNzQzYTBkY2ViOGUifQ%3D%3D&forward=Li9pbmRleC5waHA%2FaT00JmM9ZW50cnkmcmlkPTIzJmRvPWluZGV4Jm09c3RvbmVmaXNoX2JpZ3doZWVs&wxref=mp.weixin.qq.com#wechat_redirect ;
+msgid : 6318912601048954633 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:48:08 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:48:08 response :
+------------
+
+2016-08-15 12:48:12 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236492 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236492 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=auth&a=forward&uniacid=4&__auth=eyJvcGVuaWQiOiJvZHFrT3YzeWlpd1MwNEwzdWdSaFQ2ZEhKLXpjIiwiYWNpZCI6IjQiLCJ0aW1lIjoxNDcxMjM2NDY5LCJoYXNoIjoiZjlmNTQ5MTA5YmVhM2M5MTQxZDA3ODY3Zjk2MjlkMTkifQ%3D%3D&forward=Li9pbmRleC5waHA%2FaT00JmM9ZW50cnkmcmlkPTI0JmRvPWluZGV4Jm09bWVlcG9fbnNpZ24%3D&wxref=mp.weixin.qq.com#wechat_redirect ;
+msgid : 6318912618228823818 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:48:12 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:48:12 response :
+------------
+
+2016-08-15 12:49:18 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236558 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236558 ;
+msgtype : text ;
+content : 签到 ;
+msgid : 6318912901696665371 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:49:18 params :
+------------
+Array:
+message : Array ;
+module : meepo_nsign ;
+rule : 24 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-08-15 12:49:18 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-08-15 12:50:32 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236631 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236631 ;
+msgtype : text ;
+content : 粉丝
+ ;
+msgid : 6318913215229277988 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:50:32 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:50:32 response :
+------------
+
+2016-08-15 12:50:34 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236634 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236634 ;
+msgtype : text ;
+content : 粉丝 ;
+msgid : 6318913228114179881 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:50:34 params :
+------------
+Array:
+message : Array ;
+module : bm_top ;
+rule : 25 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-08-15 12:50:34 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : text ;
+Content : 粉丝粉丝粉丝 ;
+
+2016-08-15 12:51:49 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236709 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236709 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=mc&a=home& ;
+msgid : 6318913550236727100 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:51:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:51:49 response :
+------------
+
+2016-08-15 12:54:35 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236875 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236875 ;
+msgtype : text ;
+content : 折扣券 ;
+msgid : 6318914263201298253 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:54:35 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:54:35 response :
+------------
+
+2016-08-15 12:55:45 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471236945 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471236945 ;
+msgtype : text ;
+content : 首页 ;
+msgid : 6318914563849008983 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:55:45 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 14 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-08-15 12:55:45 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-08-15 12:56:44 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1471237004 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1471237004 ;
+msgtype : text ;
+content : 领券中心设置 http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&p=coupon&m=ewei_shop&do=plugin ;
+msgid : 6318914817252079455 ;
+redirection :  ;
+source :  ;
+
+2016-08-15 12:56:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-08-15 12:56:44 response :
+------------
+

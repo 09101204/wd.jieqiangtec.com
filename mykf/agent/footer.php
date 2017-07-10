@@ -1,0 +1,1 @@
+<?include("../template/admin/$adminstyle/bottom.htm");?>

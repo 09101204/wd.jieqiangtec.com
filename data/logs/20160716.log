@@ -1,0 +1,424 @@
+2016-07-16 22:21:27 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468678887 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468678887 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6307927788397433294 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 22:21:27 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-16 22:21:27 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : text ;
+Content : 1111/呲牙 ;
+
+2016-07-16 22:32:22 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468679541 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468679541 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6307930597306044936 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 22:32:22 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 22:32:22 response :
+------------
+
+2016-07-16 22:32:32 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468679552 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468679552 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6307930644550685194 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 22:32:32 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 13 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-16 22:32:32 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-16 22:39:52 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468679991 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468679991 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=order&m=ewei_shop ;
+msgid : 6307932530041328201 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 22:39:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 22:39:52 response :
+------------
+
+2016-07-16 22:59:56 trace :
+------------
+Array:
+from : fromUser ;
+to : toUser ;
+time : 1468681143 ;
+type : text ;
+event :  ;
+tousername : toUser ;
+fromusername : fromUser ;
+createtime : 1468681143 ;
+msgtype : text ;
+content : 测试内容 ;
+msgid : 1234567890123456 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 22:59:56 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 22:59:56 response :
+------------
+
+2016-07-16 23:01:56 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1468681316 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1468681316 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6307938220878004723 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:01:56 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:01:56 response :
+------------
+
+2016-07-16 23:02:18 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1468681338 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1468681338 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=3&c=entry&do=shop&m=ewei_shop ;
+msgid : 6307938315367285237 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:02:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:02:18 response :
+------------
+
+2016-07-16 23:03:16 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1468681396 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1468681396 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=2&c=entry&do=shop&m=ewei_shop ;
+msgid : 6307938564475388414 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:03:16 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:03:16 response :
+------------
+
+2016-07-16 23:03:17 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:03:20 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:03:23 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:44 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:46 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:47 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:47 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:48 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:48 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:07:56 platform-test-message :
+------------
+String:
+
+
+2016-07-16 23:12:34 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468681954 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468681954 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop ;
+msgid : 6307940961062130432 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:12:34 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:12:34 response :
+------------
+
+2016-07-16 23:12:49 trace :
+------------
+Array:
+from : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+to : gh_0d96415faabe ;
+time : 1468681969 ;
+type : text ;
+event :  ;
+tousername : gh_0d96415faabe ;
+fromusername : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+createtime : 1468681969 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop ;
+msgid : 6307941025507337757 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:12:49 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:12:49 response :
+------------
+
+2016-07-16 23:13:10 trace :
+------------
+Array:
+from : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+to : gh_0d96415faabe ;
+time : 1468681990 ;
+type : text ;
+event :  ;
+tousername : gh_0d96415faabe ;
+fromusername : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+createtime : 1468681990 ;
+msgtype : text ;
+content : 商城入口 ;
+msgid : 6307941115701650975 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:13:10 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:13:10 response :
+------------
+
+2016-07-16 23:13:13 trace :
+------------
+Array:
+from : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+to : gh_0d96415faabe ;
+time : 1468681992 ;
+type : text ;
+event :  ;
+tousername : gh_0d96415faabe ;
+fromusername : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+createtime : 1468681992 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6307941124291585568 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:13:13 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 14 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-16 23:13:13 response :
+------------
+Array:
+FromUserName : gh_0d96415faabe ;
+ToUserName : o6Nsdt8114GsiU6zEW4fAnZkDDPY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-16 23:24:32 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1468682671 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1468682671 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=6&c=entry&do=shop&m=ewei_shop ;
+msgid : 6307944040553681690 ;
+redirection :  ;
+source :  ;
+
+2016-07-16 23:24:32 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-16 23:24:32 response :
+------------
+

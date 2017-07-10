@@ -1,0 +1,22 @@
+<?
+include("../include/common.inc.php");
+$username=$_SESSION["eqmk_administrator_username"];
+if($username==''){
+  header("location:index.php");
+  exit;
+}
+$rs=$db->record("admin","id,logincount,lasttime,thistime,lastip,thisip,lastaddress,thisaddress,style,grade","username='$username'");
+$logincount=$rs[0]["logincount"];
+$wid=$rs[0]["id"];
+$lasttime=$rs[0]["lasttime"];
+$thistime=$rs[0]["thistime"];
+$lastip=$rs[0]["lastip"];
+$thisip=$rs[0]["thisip"];
+$lastaddress=$rs[0]["lastaddress"];
+$thisaddress=$rs[0]["thisaddress"];
+$adminstyle=$rs[0]["style"];
+if($rs[0]["grade"]==-1)$demoversion='Y';
+if(!$adminstyle)$adminstyle="default";
+include("../template/admin/$adminstyle/config.php");
+unset($logo);
+?>

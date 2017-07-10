@@ -1,0 +1,1265 @@
+2016-10-25 12:19:30 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477369170 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477369170 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 12:19:30 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 12:19:30 response :
+------------
+
+2016-10-25 13:46:44 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374404 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374404 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:46:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:46:44 response :
+------------
+
+2016-10-25 13:47:52 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374472 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374472 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:47:52 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:47:52 response :
+------------
+
+2016-10-25 13:48:44 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374524 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374524 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:48:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:48:44 response :
+------------
+
+2016-10-25 13:50:05 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374605 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374605 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:50:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:50:05 response :
+------------
+
+2016-10-25 13:52:45 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374764 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374764 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:52:45 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:52:45 response :
+------------
+
+2016-10-25 13:53:21 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374801 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374801 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:53:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:53:21 response :
+------------
+
+2016-10-25 13:53:58 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374838 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374838 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:53:58 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:53:58 response :
+------------
+
+2016-10-25 13:54:38 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374878 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374878 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:54:38 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:54:38 response :
+------------
+
+2016-10-25 13:55:12 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477374912 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477374912 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:55:12 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:55:12 response :
+------------
+
+2016-10-25 13:56:47 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477375007 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477375007 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 13:56:47 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 13:56:47 response :
+------------
+
+2016-10-25 18:08:28 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477390108 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477390108 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6345342197701812864 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:08:28 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 23 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:08:28 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:08:33 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477390113 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477390113 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=auth&a=forward&uniacid=4&__auth=eyJvcGVuaWQiOiJvZHFrT3YzeWlpd1MwNEwzdWdSaFQ2ZEhKLXpjIiwiYWNpZCI6IjQiLCJ0aW1lIjoxNDc3MzkwMTA4LCJoYXNoIjoiNDgwN2FhNjY0ZThmOGQ4MTUxMTA0ZTNiNjhkY2FlODgifQ%3D%3D&forward=Li9pbmRleC5waHA%2FaT00JmM9ZW50cnkmcmlkPTIzJmRvPWluZGV4Jm09c3RvbmVmaXNoX2JpZ3doZWVs&wxref=mp.weixin.qq.com#wechat_redirect ;
+msgid : 6345342219176649346 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:08:33 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:08:33 response :
+------------
+
+2016-10-25 18:15:03 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477390503 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477390503 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6345343894213894830 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:15:03 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 23 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:15:03 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:21:44 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477390904 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477390904 ;
+msgtype : text ;
+content : 签到  ;
+msgid : 6345345616495780571 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:21:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:21:44 response :
+------------
+
+2016-10-25 18:21:50 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477390910 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477390910 ;
+msgtype : text ;
+content : 签到 ;
+msgid : 6345345642265584348 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:21:50 params :
+------------
+Array:
+message : Array ;
+module : meepo_nsign ;
+rule : 24 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:21:50 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:22:54 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477390974 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477390974 ;
+msgtype : text ;
+content : sss ;
+msgid : 6345345917143491302 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:22:54 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 27 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:22:54 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:36:33 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477391792 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477391792 ;
+msgtype : text ;
+content : 微砍价 ;
+msgid : 6345349430426739610 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:36:33 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:36:33 response :
+------------
+
+2016-10-25 18:36:50 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477391810 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477391810 ;
+msgtype : text ;
+content : sss ;
+msgid : 6345349507736150943 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:36:50 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 27 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:36:50 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:37:39 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477391859 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477391859 ;
+msgtype : text ;
+content : 微砍价 ;
+msgid : 6345349718189548452 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:37:39 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 27 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:37:39 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:37:42 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477391862 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477391862 ;
+msgtype : text ;
+content : sss ;
+msgid : 6345349731074450342 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:37:42 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:37:42 response :
+------------
+
+2016-10-25 18:39:50 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477391990 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477391990 ;
+msgtype : text ;
+content : 
+拼团
+http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=index&m=feng_fightgroups ;
+msgid : 6345350280830264247 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:39:50 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:39:50 response :
+------------
+
+2016-10-25 18:41:24 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477392084 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477392084 ;
+msgtype : text ;
+content : 积分商城 ;
+msgid : 6345350684557190082 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:41:24 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 26 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:41:24 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:43:16 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477392196 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477392196 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&method=detail&p=creditshop&id=2&m=ewei_shop&do=plugin ;
+msgid : 6345351165593527255 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:43:16 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:43:16 response :
+------------
+
+2016-10-25 18:45:26 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477392326 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477392326 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6345351723939275748 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:45:26 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 10 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:45:26 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 18:48:23 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477392503 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477392503 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&kid=1&au=1&do=auth&m=mon_wkj ;
+msgid : 6345352484148487150 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:48:23 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 18:48:23 response :
+------------
+
+2016-10-25 18:49:43 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1477392583 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1477392583 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6345352827745870836 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 18:49:43 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 23 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 18:49:43 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 19:27:46 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:27:48 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:27:51 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:28:03 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:28:06 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:28:47 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477394927 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477394927 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6345362895154493433 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:28:47 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 28 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 19:28:47 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : text ;
+Content : 1111111111111111 ;
+
+2016-10-25 19:29:02 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477394942 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477394942 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6345362959579002881 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:29:02 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 28 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 19:29:02 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : text ;
+Content : 1111111111111111 ;
+
+2016-10-25 19:29:31 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477394971 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477394971 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=3&c=entry&do=shop&m=ewei_shop ;
+msgid : 6345363084133054468 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:29:31 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 19:29:31 response :
+------------
+
+2016-10-25 19:30:25 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:30:27 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:08 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:10 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:12 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:15 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:17 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:27 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:36 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:31:38 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:32:10 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:32:11 waring :
+------------
+String:
+Request Failed
+
+2016-10-25 19:32:51 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477395171 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477395171 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6345363943126513752 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:32:51 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 28 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 19:32:51 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : text ;
+Content : 1111111111111111 ;
+
+2016-10-25 19:32:58 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477395178 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477395178 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6345363973191284826 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:32:58 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 30 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 19:32:58 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-10-25 19:33:06 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477395186 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477395186 ;
+msgtype : text ;
+content : 签到 ;
+msgid : 6345364007551023196 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:33:06 params :
+------------
+Array:
+message : Array ;
+module : meepo_nsign ;
+rule : 29 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 19:33:06 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : news ;
+ArticleCount : 4 ;
+Articles : Array ;
+
+2016-10-25 19:33:17 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477395197 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477395197 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6345364054795663454 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 19:33:17 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 19:33:17 response :
+------------
+
+2016-10-25 21:37:21 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477402641 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477402641 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6345396026532215839 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 21:37:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 21:37:21 response :
+------------
+
+2016-10-25 21:37:30 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477402650 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477402650 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6345396065186921508 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 21:37:30 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 28 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 21:37:30 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : text ;
+Content : 1111111111111111 ;
+
+2016-10-25 21:38:31 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477402711 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477402711 ;
+msgtype : text ;
+content : 签到 ;
+msgid : 6345396327179926577 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 21:38:31 params :
+------------
+Array:
+message : Array ;
+module : meepo_nsign ;
+rule : 29 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-10-25 21:38:31 response :
+------------
+Array:
+FromUserName : gh_b345808ae94f ;
+ToUserName : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+MsgType : news ;
+ArticleCount : 4 ;
+Articles : Array ;
+
+2016-10-25 21:39:15 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1477402754 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1477402754 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/.&wxref=mp.weixin.qq.com#wechat_redirect ;
+msgid : 6345396511863520319 ;
+redirection :  ;
+source :  ;
+
+2016-10-25 21:39:15 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 21:39:15 response :
+------------
+
+2016-10-25 22:50:53 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477407053 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477407053 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 22:50:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 22:50:53 response :
+------------
+
+2016-10-25 22:53:16 trace :
+------------
+Array:
+from : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+to : gh_2187ab593506 ;
+time : 1477407196 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOvyDRcbsq1jfw0JDtkD5JJl4 ;
+createtime : 1477407196 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-25 22:53:16 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-25 22:53:16 response :
+------------
+

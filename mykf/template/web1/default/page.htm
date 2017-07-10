@@ -1,0 +1,86 @@
+<div class="wrapper mT5">
+  <div class="l_left">
+    <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>升级公告</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="update.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $Update $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="Update.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  <div class="l_leftjj"></div>
+  </div>
+  <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>常见问题</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="help.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $help $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="help.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="l_right">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>{$title_}</h2>
+          </span></span>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="pfeature clear">
+{$content}
+</div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+</div>

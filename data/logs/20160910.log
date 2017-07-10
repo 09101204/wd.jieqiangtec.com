@@ -1,0 +1,29 @@
+2016-09-10 17:30:18 trace :
+------------
+Array:
+from : odqkOv2l9j4PKregGrxYnQov0pAc ;
+to : gh_2187ab593506 ;
+time : 1473499818 ;
+type : event ;
+event : MASSSENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv2l9j4PKregGrxYnQov0pAc ;
+createtime : 1473499818 ;
+msgtype : event ;
+msgid : 1000000001 ;
+status : send success ;
+totalcount : 1 ;
+filtercount : 1 ;
+sentcount : 1 ;
+errorcount : 0 ;
+
+2016-09-10 17:30:18 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-09-10 17:30:18 response :
+------------
+

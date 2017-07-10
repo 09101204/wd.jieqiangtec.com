@@ -1,0 +1,59 @@
+2017-05-02 22:57:46 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1493737066 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1493737066 ;
+msgtype : text ;
+content : 关键词 ;
+msgid : 6415551847703976629 ;
+redirection :  ;
+source :  ;
+
+2017-05-02 23:02:39 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1493737359 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1493737359 ;
+msgtype : text ;
+content : 海报关键词 ;
+msgid : 6415553106129394391 ;
+redirection :  ;
+source :  ;
+
+2017-05-02 23:11:05 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1493737865 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1493737865 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2017-05-02 23:11:05 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-05-02 23:11:05 response :
+------------
+

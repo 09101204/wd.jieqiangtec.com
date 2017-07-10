@@ -1,0 +1,104 @@
+2016-10-19 16:53:02 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1476867182 ;
+type : event ;
+event : VIEW ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1476867182 ;
+msgtype : event ;
+eventkey : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+menuid : 407053830 ;
+
+2016-10-19 16:53:02 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-19 16:53:02 response :
+------------
+
+2016-10-19 16:54:53 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1476867293 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1476867293 ;
+msgtype : event ;
+msgid : 407823393 ;
+status : success ;
+
+2016-10-19 16:54:53 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-19 16:54:53 response :
+------------
+
+2016-10-19 21:37:57 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1476884277 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1476884277 ;
+msgtype : text ;
+content : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx606b4470e54ff82d&redirect_uri=http%3A%2F%2Fwd.jieqiangtec.com%2Fapp%2Findex.php%3Fi%3D4%26c%3Dauth%26a%3Doauth%26scope%3Dsnsapi_base&response_type=code&scope=snsapi_base&state=we7sid-30a542f97a3e9a57335003bf3eaea596#wechat_redirect ;
+msgid : 6343169670099432406 ;
+redirection :  ;
+source :  ;
+
+2016-10-19 21:37:57 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-19 21:37:57 response :
+------------
+
+2016-10-19 21:38:11 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1476884291 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1476884291 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop&wxref=mp.weixin.qq.com#wechat_redirect ;
+msgid : 6343169730228974553 ;
+redirection :  ;
+source :  ;
+
+2016-10-19 21:38:11 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-10-19 21:38:11 response :
+------------
+

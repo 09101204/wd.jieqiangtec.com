@@ -1,0 +1,210 @@
+2016-07-24 18:49:36 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469357375 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469357375 ;
+msgtype : text ;
+content : 测试商品 ;
+msgid : 6310841872168270257 ;
+redirection :  ;
+source :  ;
+
+2016-07-24 18:49:36 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-24 18:49:36 response :
+------------
+
+2016-07-24 18:50:09 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469357408 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469357408 ;
+msgtype : text ;
+content : 111 ;
+msgid : 6310842013902191031 ;
+redirection :  ;
+source :  ;
+
+2016-07-24 18:50:09 params :
+------------
+Array:
+message : Array ;
+module : basic ;
+rule : 9 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-24 18:50:09 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : text ;
+Content : 123/大兵 ;
+
+2016-07-24 19:48:27 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469360906 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469360906 ;
+msgtype : text ;
+content : 商城 ;
+msgid : 6310857037697792721 ;
+redirection :  ;
+source :  ;
+
+2016-07-24 19:48:27 params :
+------------
+Array:
+message : Array ;
+module : ewei_shop ;
+rule : 11 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-24 19:48:27 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-07-24 19:48:47 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469360926 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469360926 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&m=ewei_shop&do=plugin&p=designer&pageid=1&wxref=mp.weixin.qq.com ;
+msgid : 6310857123597138643 ;
+redirection :  ;
+source :  ;
+
+2016-07-24 19:48:47 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-24 19:48:47 response :
+------------
+
+2016-07-24 19:52:26 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469361145 ;
+type : event ;
+event : TEMPLATESENDJOBFINISH ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469361145 ;
+msgtype : event ;
+msgid : 406862555 ;
+status : success ;
+
+2016-07-24 19:52:26 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-24 19:52:26 response :
+------------
+
+2016-07-24 19:54:28 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469361268 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469361268 ;
+msgtype : text ;
+content : http://wd.jieqiangtec.com/app/index.php?i=4&c=entry&do=shop&m=ewei_shop ;
+msgid : 6310858592475953888 ;
+redirection :  ;
+source :  ;
+
+2016-07-24 19:54:28 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-07-24 19:54:28 response :
+------------
+
+2016-07-24 21:49:41 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1469368180 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1469368180 ;
+msgtype : text ;
+content : 首页 ;
+msgid : 6310888279289904606 ;
+redirection :  ;
+source :  ;
+
+2016-07-24 21:49:42 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 14 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-07-24 21:49:42 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

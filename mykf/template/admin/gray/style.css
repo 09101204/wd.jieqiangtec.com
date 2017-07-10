@@ -1,0 +1,96 @@
+body, table, tr, td, select, textarea {font:12px/1.3em simsun ËÎÌו arial;color:#464646;word-break:break-all;word-wrap:break-word;margin-left: 0px}
+form{margin: 0; padding: 0}
+.body{}
+.menubody{BACKGROUND-IMAGE:url(leftmenubg.gif);}
+.mainbody{background-color:#57607C;}
+.check{background-color:#32679D;}
+TABLE.Menu {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 135px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+TABLE.Menu TH {
+  CURSOR: hand;
+	font-family: "ËÎÌו", "Verdana";
+	font-size: 14px;
+	color: #FFF788;
+	font-weight: bold;
+	HEIGHT: 25px;
+	text-align:left;
+	BORDER-BOTTOM: #52617B 1px solid
+}
+TABLE.Menu TD {
+	text-align:right;
+	padding-right:1px;
+	/*PADDING-LEFT: 5px; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #d6dff7*/
+}
+TABLE.Menu TD A:link {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+TABLE.Menu TD A:visited {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+TABLE.Menu TD A:hover {
+	COLOR: #FF0000; TEXT-DECORATION: underline
+}
+TABLE.Form {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP: 0px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; WIDTH: 98%; PADDING-TOP: 4px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff
+}
+TABLE.Form TH {
+	background-color:#32679D;font-weight: bold;color:#FFF788;padding-left:5px
+}
+TABLE.Form TD {
+	background-color:#F1F1F1;padding-left:5px;padding-top:3px;padding-bottom:3px;line-height:1.28;vertical-align:top
+}
+TABLE.Form TD A:link {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+TABLE.Form TD A:visited {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+TABLE.Form TD A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+TABLE.List {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; WIDTH: 98%; PADDING-TOP: 4px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff
+}
+TABLE.List TH {
+	background-color:#32679D;font-weight: bold;color:#FFF788;padding-left:5px
+}
+TABLE.List TD {
+	background-color:#F1F1F1;padding-left:5px;padding-top:3px;padding-bottom:3px;line-height:1.28
+}
+TABLE.List TD A:link {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+TABLE.List TD A:visited {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+TABLE.List TD A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+TABLE.Navi {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 1px; BORDER-TOP: 0px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: 0px; WIDTH: 98%; PADDING-TOP: 1px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff
+}
+TABLE.Navi TH {
+	PADDING-LEFT: 5px; COLOR: #ffffff; HEIGHT: 24px; BACKGROUND-COLOR: #799ae1; TEXT-ALIGN: left
+}
+TABLE.Navi TD {
+	PADDING-LEFT: 5px; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #d6dff7
+}
+TABLE.Navi TD A:link {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+TABLE.Navi TD A:visited {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+TABLE.Navi TD A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+select,textarea	{ font: 11px Tahoma, Verdana; color: #000000; font-weight: normal; background-color: #F1F1F1 }
+/*INPUT {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}*/
+
+A {COLOR: #333333; TEXT-DECORATION: underline}
+.gray {color:gray}
+.red {color:red}
+.blue {color:blue}

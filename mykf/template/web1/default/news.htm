@@ -1,0 +1,101 @@
+<div class="wrapper mT5">
+  <div class="l_left">
+    <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>升级公告</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="update.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $Update $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="Update.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  <div class="l_leftjj"></div>
+  </div>
+  <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>常见问题</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="help.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $help $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="help.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="l_right">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>新闻资讯</h2>
+          </span></span>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+        <!--{if $action=='view'}-->
+      <div class="arcbody">
+          <h1>{$title}</h1>
+		  <div class="times">来源：<font color="red">{$comefrom}</font> 作者：<font color="red">{$author}</font> 发表于：<font color="red">{$updatetime}</font></div>
+         <div id="textbody" class="content">{$content}</div>
+        </div>
+        <!--{else}-->
+      <div class="arc_list">
+          <!--{loop $News[0] $rs}-->
+      <ul>
+          <li class="list_title"><a href="news.php?id=$rs[id]">$rs[title]</a></li>
+          <li class="text"> {echo ''.cut_str($rs[content],85,gb2312,0).''} <a href="news.php?id=$rs[id]">[阅读全文]</a></li>
+          <li class="ot"><span>作者：<font color="red">$rs[author]</font> </span><span> 发表于：<font color="red">{echo '['.date('Y-m-d H:i:s',$rs[updatetime]).']'}</font></span></li>
+        </ul>
+<!--{/loop}-->
+          $news[1]
+        <!--{/if}-->
+	</div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+</div>

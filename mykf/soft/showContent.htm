@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>ÁÄÌìÄÚÈİ</title>
+<link rel="stylesheet" type="text/css" href="images/dialog.css">
+<base target="_self"> 
+</head>
+<body leftmargin="2" topmargin="0"></body>
+<script type="text/javascript">
+function Click(){
+  window.event.returnValue = false;
+}
+function KeyDown(){
+	if (window.event.keyCode == 116){	
+		event.keyCode = 0;
+		event.returnValue = false;
+	}
+}
+function Click2(){
+	window.event.returnValue = false;
+	return ;
+}
+document.oncontextmenu = Click;
+document.onmousedown = Click2; 
+document.onkeydown = KeyDown;
+</script>
+</html>

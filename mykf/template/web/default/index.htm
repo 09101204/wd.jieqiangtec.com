@@ -1,0 +1,158 @@
+<div class="wrapper mT5">
+  <!--软件特性开始 -->
+  <div id="feature" class="fLeft">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2><a href="function.php" style="color:#FFF">客服系统特性</a></h2>
+          </span></span>
+          <div class="title_text fLeft mL10 mT13"><img src="images/feature_text.gif" width="103" height="10" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <table height="303" class="index_feature clear">
+        <tbody>
+          <tr>
+            <td><img alt="良好的用户口碑" src="images/biao1.png"/></td>
+            <td><img alt="灵活的模块组合" src="images/biao2.png"/></td>
+            <td><img alt="简单易用的模板引擎" src="images/biao3.png"/></td>
+            <td><img alt="便捷自定义模型" src="images/biao4.png"/></td>
+          </tr>
+          <tr>
+            <th> 申请即可<span class="index_light">免费使用</span><br/>
+              我们拥有丰富的开发经验,7X24小时服务</th>
+            <th> 强大的<span class="index_light">消息预知</span><br/>
+              通过消息预知提前了解客户将要咨询的问题 </th>
+            <th> 精准的<span class="index_light">访客实时监控</span><br/>
+            对网站访客实时轨迹跟踪，不错过每一个销售机会 </th>
+            <th> 个性的<span class="index_light">自定义设置</span><br/>
+              自己随意定制整个客服系统相关属性 </th>
+          </tr>
+          <tr>
+            <td><img alt="高效的动态静态" src="images/biao5.png"/></td>
+            <td><img alt="灵活的商业运营模式" src="images/biao6.png"/></td>
+            <td><img alt="流畅专业界面设计" src="images/biao7.png"/></td>
+            <td><img alt="升级无忧指纹校验" src="images/biao8.png"/></td>
+          </tr>
+          <tr>
+            <th> 高效的<span class="index_light">实时在线洽谈</span><br/>
+              访客只需打开网页点击客服人员，即可对话 </th>
+            <th class="main_124"> 灵活的<span class="index_light">商业运营模式</span><br/>完善的会员体系，完整的在线支付接口 </th>
+            <th> 丰富的<span class="index_light">无限座席</span><br/>
+              一个账号可添加无限个客服，接待访客时毫无担忧 </th>
+            <th> 全面的<span class="index_light">数据分析</span><br/>
+              让网站更丰富、方便网站扩展 </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+  <!--软件特性结束 -->
+  <div id="commend" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>升级公告</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li class="thisiterm"><a href="update.php"><span>更多</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-iterm clear" style="padding-top:5px">
+        <div style="display: block;">
+      <div class="list-main2 clear" style="padding-bottom:8px">
+        <ul>
+		<!--{loop $Update $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="Update.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],14,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="wrapper mT5">
+  <div id="hotdown" class="fLeft">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>热门资讯</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li id="tab_t1" onMouseOver="return ChangIterm(1)" class="thisiterm"><a href="help.php"><span>常见问题</span></a></li>
+              <li id="tab_t2" onMouseOver="return ChangIterm(2)"><a href="news.php"><span>行业新闻</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-main clear" id="tab_1">
+              <ul>
+		<!--{loop $help $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="help.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],20,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+      <div class="list-main clear" id="tab_2" style="display: none;">
+        <ul>
+		<!--{loop $news $rs}-->
+        <li><span class="date">{echo ''.date('m/d',$rs[updatetime]).''}</span><a href="news.php?id=$rs[id]" target="_blank">{echo ''.cut_str($rs[title],20,gb2312,0).''}</a></li>
+        <!--{/loop}-->
+        </ul>
+      </div>
+    </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+  <div id="hothelp2" class="fLeft">
+<img src=images/sell.jpg>  </div>
+  <div id="comfaq" class="fRight">
+    <div class="utitle">
+      <div class="utitlei">
+        <div class="title"><span class="title_t fLeft"><span class="title_t_i fLeft">
+          <h2>成功案例</h2>
+          </span></span>
+          <div class="iterm fRight">
+            <ul>
+              <li><a href="#"><span>更多...</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ucontent">
+      <div class="list-main clear" style="padding-bottom:8px">
+        <ul>
+        <li>四川省中国国际旅行社</li>
+        <li>上海晨冕贸易有限公司</li>
+        <li>四川省钢锉厂</li>
+        <li>中元恒茂(北京)国际投资有限公司</li>
+        <li>深圳爱家映橡家具有限公司</li>
+        <li>四川会展网</li>
+        <li>成都亮丽空间装饰设计有限公司</li>
+        <li>四川省蜀安驾校</li>
+        <li>广东鹤山市鹤华中学</li>
+        </ul>
+      </div>
+    <div class="title_buttom">
+      <div class="title_buttom_i"></div>
+    </div>
+  </div>
+</div>

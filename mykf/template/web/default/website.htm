@@ -1,0 +1,38 @@
+<div class="content">
+  <div class="main">
+    <div class="table">
+      <div class="sortby">≈≈–Ú£∫$SortBy</div>
+      <div class="nav">
+        <span style="width:60px"></span>
+        <span style="width:150px">{lang website_nav_name}</span>
+        <span style="width:100px">{lang website_nav_area}</span>
+        <span style="width:120px">{lang website_nav_trade}</span>
+        <span style="width:60px">{lang website_nav_hot}</span>
+        <span style="width:60px">{lang website_nav_talk}</span>
+        <span style="width:60px">{lang website_nav_comment}</span>
+        <span style="width:100px"></span>
+      </div><!--{loop $website[0] $rs}--><!--{eval $cid=$rs['companyid'];$logo=$rs['logo'] ? $rs['logo'] : 'images/logo-none.gif';$company=FormatCharLen($rs['company'],18);$content=FormatCharLen($rs['description'],120);$wid=$db->select("worker","id","companyid='$cid' and isshow=1 and mq>0 order by online desc,mq asc");}-->
+      <div class="list">
+        <div style="width:60px"><img src="$logo" width="48" height="48"></div>
+        <div>
+          <div class="info">
+            <span style="width:150px">{$company}</span>
+            <span style="width:100px">{$rs[prov]}&nbsp;{$rs[city]}</span>
+            <span style="width:120px">{$rs[trade]}&nbsp;</span>
+            <span style="width:60px">{$rs[hot]}</span>
+            <span style="width:60px">{$rs[talk]}</span>
+            <span style="width:60px">{$rs[comment]}</span>
+          </div>
+          <div class="text" style="width:560px">{$content}</div>
+        </div>
+        <div style="width:80px"><a href="kf.php?mod=client&cid={$cid}&wid={$wid}" target="Dialog{$wid}"><img src="kf.php?mod=im&type=pic&cid={$cid}&wid={$wid}&icon={$default_icon}" border="0"></a></div>
+      </div><!--{/loop}-->
+      $website[1]
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="left"></div>
+    <div class="bg"></div>
+    <div class="right"></div>
+  </div>
+</div>

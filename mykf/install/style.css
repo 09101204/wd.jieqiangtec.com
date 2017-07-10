@@ -1,0 +1,65 @@
+a {
+	color: #3A4273;
+	text-decoration: none
+}
+
+a:hover {
+	color: #3A4273;
+	text-decoration: underline
+}
+
+body{
+	background: url(bg.gif) repeat-x;
+}
+body, table, td {
+	color: #3A4273;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	line-height: 20px;
+	scrollbar-base-color: #E3E3EA;
+	scrollbar-arrow-color: #5C5C8D
+}
+
+input {
+	color: #1867ba;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	background-color: #4192e8;
+	color: #FFFFFF;
+	scrollbar-base-color: #aacbef;
+	scrollbar-arrow-color: #789dc6;
+}
+
+.install {
+	font-family: Arial, Verdana;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000
+}
+
+.message {
+	background: #e1eefe;
+	padding: 20px;
+}
+
+.altbg1 {
+	background: #e1eefe;
+}
+
+.altbg2 {
+	background: #f4f9ff;
+}
+
+.header td {
+	color: #FFFFFF;
+	background-color: #609fe2;	
+	text-align: center;
+}
+
+.option td {
+	text-align: center;
+}
+
+.redfont {
+	color: #FF0000;
+}

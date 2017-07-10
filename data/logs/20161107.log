@@ -1,0 +1,361 @@
+2016-11-07 00:17:17 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478449037 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478449037 ;
+msgtype : text ;
+content : 积分 ;
+msgid : 6349890263125837788 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 00:17:17 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-07 00:17:17 response :
+------------
+
+2016-11-07 00:17:30 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478449050 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478449050 ;
+msgtype : text ;
+content : 积分商城 ;
+msgid : 6349890318960412637 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 00:17:30 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 26 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 00:17:30 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 00:18:44 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478449124 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478449124 ;
+msgtype : text ;
+content : 抽奖 ;
+msgid : 6349890636787992550 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 00:18:44 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-07 00:18:44 response :
+------------
+
+2016-11-07 00:25:35 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478449535 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478449535 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6349892402019551244 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 00:25:35 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 23 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 00:25:35 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 00:43:21 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478450601 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478450601 ;
+msgtype : text ;
+content : 国窖1573春酿,你值得拥有。 ;
+msgid : 6349896980454688857 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 00:43:21 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2016-11-07 00:43:21 response :
+------------
+
+2016-11-07 00:43:25 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478450605 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478450605 ;
+msgtype : text ;
+content : 国窖1573春酿 ;
+msgid : 6349896997634558042 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 00:43:25 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 31 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 00:43:25 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 01:01:50 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478451710 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478451710 ;
+msgtype : text ;
+content : 砍价砍价 ;
+msgid : 6349901743573420157 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 01:01:50 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 32 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 01:01:50 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 01:05:03 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478451902 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478451902 ;
+msgtype : text ;
+content : 砍价砍价 ;
+msgid : 6349902568207140993 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 01:05:03 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 32 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 01:05:03 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 09:46:59 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478483219 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478483219 ;
+msgtype : text ;
+content : 国窖1573春酿 ;
+msgid : 6350037073697952151 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 09:46:59 params :
+------------
+Array:
+message : Array ;
+module : mon_wkj ;
+rule : 31 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 09:46:59 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 10:28:03 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478485683 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478485683 ;
+msgtype : text ;
+content : 积分商城 ;
+msgid : 6350047656497370103 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 10:28:03 params :
+------------
+Array:
+message : Array ;
+module : cover ;
+rule : 26 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 10:28:03 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2016-11-07 10:28:10 trace :
+------------
+Array:
+from : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+to : gh_2187ab593506 ;
+time : 1478485690 ;
+type : text ;
+event :  ;
+tousername : gh_2187ab593506 ;
+fromusername : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+createtime : 1478485690 ;
+msgtype : text ;
+content : 大转盘 ;
+msgid : 6350047686562141177 ;
+redirection :  ;
+source :  ;
+
+2016-11-07 10:28:10 params :
+------------
+Array:
+message : Array ;
+module : stonefish_bigwheel ;
+rule : 23 ;
+priority : 0 ;
+keyword : Array ;
+
+2016-11-07 10:28:10 response :
+------------
+Array:
+FromUserName : gh_2187ab593506 ;
+ToUserName : odqkOv3yiiwS04L3ugRhT6dHJ-zc ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+

@@ -1,0 +1,107 @@
+body {
+	font-size: 12px;
+	line-height: 130%;
+	border: 1px solid #FFFFFF;
+	scrollbar-face-color: #F6F6f6;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #F0F2DB;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-arrow-color:  #666666;
+	scrollbar-track-color: #FCFDF9;
+	scrollbar-darkshadow-color: #cccccc; 
+  word-break:break-all;
+  line-height:18px;
+  overflow:auto;
+}
+ul{
+  padding:0;margin:0;list-style:none;
+}
+.userinfo{
+}
+.userinfo li{
+  line-height:20px;
+  padding-left:10px;
+  background:url(dot.gif) no-repeat 0px 6px;
+  border-bottom:1px solid #EEEEEE;
+}
+.error{
+  color:#7982c1;
+  height:18px;
+  line-height:18px;
+  padding-left:20px;
+  background:url(im_info.gif) no-repeat 2px 1px;
+}
+.red{
+  color:red;
+}
+.green{
+  color:green;
+}
+.gray{
+  color:gray;
+}
+.im_to{
+  color:#008040;
+  height:18px;
+  line-height:18px;
+}
+.im_from{
+  color:#0000ff;
+  height:18px;
+  line-height:18px;
+}
+.im_from .url,.im_info .url{
+  cursor:hand;
+  text-decoration:underline;
+}
+.im_title{
+  height:18px;
+  line-height:18px;
+  font-weight:bold;
+}
+.im_info{
+  clear:both;
+  font-size:14px;
+  color:0a246a;
+}
+.im_content{
+  padding-left:10px;
+}
+.worker{
+  float:left;
+  width:90%;
+  margin:5px 10px 5px 5px;
+}
+.worker li{
+  float:left;
+  width:45%;
+  height:20px;
+  margin:0px;
+  text-align:left;
+}
+.worker .wname{
+  line-height:20px;
+  color:blue;
+  cursor:hand;
+}
+.faq{
+  float:left;
+  width:90%;
+  margin:5px 10px 5px 5px;
+}
+.faq li{
+  height:20px;
+  margin:0px;
+  text-align:left;
+  color:blue;
+}
+.faq .fname{
+  line-height:20px;
+  color:blue;
+  cursor:hand;
+}
+.face{
+  width:100%;
+  text-align:center;
+  overflow:hidden;
+}

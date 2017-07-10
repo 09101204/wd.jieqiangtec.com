@@ -1,0 +1,43 @@
+body{border:0;overflow:hidden;margin:0}
+div,th,td,p{font-size: 9pt; font-family: "ËÎÌו"}
+ul{padding:0;margin:0;list-style:none}
+.smiley{
+  width:300px;
+  text-align:center;
+}
+.smiley .title li{
+  float:left;
+  width:72px;
+  height:22px!important;
+  height:16px;
+  padding-top:6px;
+  margin:0px 1px 0px 0px;
+  cursor:pointer;
+}
+.smiley .content{
+  clear:left;
+  height:105px;
+  padding:1px 1px 1px 2px;
+}
+.smiley .content li{
+  float:left;
+  width:40px;
+  height:33px;
+  cursor:pointer;
+}
+.smiley .content img{
+  cursor:pointer;
+}
+.smiley .title li{
+  background:url(s_t_bg_nosel.gif) no-repeat;
+}
+.smiley .title .sel{
+  background:url(s_t_bg_sel.gif) no-repeat;
+}
+.smiley .content{
+  border:1px solid #7b99c8;
+  background:#ffffff;
+}
+.smiley .content li{
+  border:1px solid #e5ebf8;
+}

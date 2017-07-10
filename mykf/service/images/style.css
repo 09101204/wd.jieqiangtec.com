@@ -1,0 +1,57 @@
+A:visited{TEXT-DECORATION: none;Color:#0000ff}
+A:hover{TEXT-DECORATION:;color:#cc0000}
+body {
+  font-size: 9pt;
+  border: 1px solid #C0C0C0;
+  scrollbar-face-color: #F6F6f6;
+  scrollbar-highlight-color: #FFFFFF;
+  scrollbar-shadow-color: #F0F2DB;
+  scrollbar-3dlight-color: #cccccc;
+  scrollbar-arrow-color:  #666666;
+  scrollbar-track-color: #FCFDF9;
+  scrollbar-darkshadow-color: #cccccc; 
+  word-break:break-all;
+  overflow:auto;
+}
+th,td{font-size: 12px; font-family: "宋体";height:20px;font-weight:normal}
+ul{paddin:0;margin:0}
+input{height:20px; border-width: 1px; font-size:12px}
+input.a{
+  height:18px;
+  border: 1px solid #787878;
+  font-family: 宋体,Verdana,Arial,Helvetica,sans-serif;
+}
+.count_menu li{float:left;margin:5px}
+/*注册提示*/
+.tiptd1{
+  height:28px;
+  border:1px solid #a7d7ec;
+  background:#fbfeff;
+  padding:3px;
+  color:#999999;
+}
+.tiptd2{
+  height:28px;
+  background: #feeeed url(ico_face1.gif) no-repeat 3px 3px;
+  padding:3px 3px 3px 22px;
+  border:1px solid #ff7b67;
+  color:#ff4800;
+}
+.tiptd3{
+  height:28px;
+  background: #fbfefd url(ico_face.gif) no-repeat 3px 3px;
+  padding:3px 3px 3px 22px;
+  border:1px solid #afe3d4;
+  color:#2cc34c;
+}
+.onez_words .menu li{text-align:left}
+.onez_words .menu li a{width:100%;height:24px;line-height:24px;display:block;overflow:hidden;color:#0044dd}
+.onez_words .menu li.index a{background:url(leftmenu_arrow.gif) no-repeat;padding-left:22px}
+.onez_words .menu li.sortopen a{background:url(leftmenu_open.gif) no-repeat;color:#003399;font-weight:bold;padding-left:22px;line-height:26px;}
+.onez_words .menu li.sortopen a:hover{color:#ff6600;background-color:#eeeeee}
+.onez_words .menu li.sortclose a{background:url(leftmenu_close.gif) no-repeat;color:#003399;font-weight:bold;padding-left:22px;line-height:26px;}
+.onez_words .menu li.sortclose a:hover{color:#ff6600;background-color:#eeeeee}
+.onez_words .menu li.child a{background:url(leftmenu_childarrow.gif) no-repeat;color:#0044dd;padding-left:40px;line-height:26px;}
+.onez_words .menu li.child a:hover{color:#ff6600;background-color:#eeeeee}
+.onez_words .menu li.childlast a{background:url(leftmenu_childarrow_last.gif) no-repeat;color:#0044dd;padding-left:40px;line-height:26px;}
+.onez_words .menu li.childlast a:hover{color:#ff6600;background-color:#eeeeee}

@@ -1,0 +1,54 @@
+2017-03-08 19:12:28 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1488971546 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1488971546 ;
+msgtype : text ;
+content : 11111 ;
+msgid : 6395084095159681133 ;
+redirection :  ;
+source :  ;
+
+2017-03-08 19:12:28 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-03-08 19:12:28 response :
+------------
+
+2017-03-08 19:12:35 trace :
+------------
+Array:
+from : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+to : gh_b345808ae94f ;
+time : 1488971555 ;
+type : text ;
+event :  ;
+tousername : gh_b345808ae94f ;
+fromusername : odBHXs_XYuc1kanwbqY6TKrizPqE ;
+createtime : 1488971555 ;
+msgtype : text ;
+content : shouye ;
+msgid : 6395084133814386798 ;
+redirection :  ;
+source :  ;
+
+2017-03-08 19:12:35 params :
+------------
+Array:
+rule : -2 ;
+module :  ;
+message : Array ;
+
+2017-03-08 19:12:35 response :
+------------
+

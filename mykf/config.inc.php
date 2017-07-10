@@ -1,0 +1,53 @@
+<?php
+$company='::53在线客服::';
+$homepage = 'http://wd.jieqiangtec.com/mykf/';
+$dialoglogo='http://kefuxi.vip220.iisicp.com/images/logo.jpg';
+$dialoglogourl='http://kefuxi.vip220.iisicp.com';
+$mycompanyqq='100018';
+$timezone='0';
+$allowreg='1';
+$default_agenttype='0';
+$regfuns='file,invite,allworker,changeworker,delad,mylogo,super';
+$freeday='7';
+$autolock='1';
+$price_sort='10';
+$price_worker='10';
+$price_days1='20';
+$price_days2='';
+$price_allfun='';
+$default_workersort='客户咨询';
+$default_worker='在线客服';
+$default_sortcount='2';
+$default_workercount='2';
+$maxfilesize='2';
+$allowfiletype='gif|jpg|bmp|zip|rar|txt|wps|doc|xls|swf|ppt|fla|mp3';
+$companyurl='http://kefuxi.vip220.iisicp.com/';
+$softtitle='53在线客服系统';
+$closeloginad='0';
+$closemainad='0';
+$closefile='0';
+$closecatch='0';
+$closepublic='0';
+$closelimit='0';
+$lang_web='zh-cn';
+$lang_dialog='zh-cn';
+$alipayid='jobjob@qq.com';
+$alipaykey='s6a4wdx94402e7n51xkyemmfx0yigfgx';
+$partner='2088602325743516';
+$smtp_mail='webmaster@idcme.com';
+$smtp_smtp='mail.idcme.com';
+$smtp_psd='wangxinyu';
+$tpldir='';
+$demoversion='';
+$tpldir='';
+$dbtype='mysql';//数据库类型
+$tbl = 'kf_';//数据表前缀
+$dbhost = 'localhost';//数据库地址
+$dbuser = 'root';//数据库用户名
+$dbpass = '123456';//数据库密码
+$dbname = 'mykf';//数据库名
+$charset='gbk';//MySQL 字符集, 可选 'gbk', 'big5', 'utf8', 'latin1', 留空为按照网站字符集设定
+$wcharset='gbk';//网站页面默认字符集, 可选 'gbk', 'big5', 'utf-8'
+$headercharset=1;//强制网站页面使用默认字符集，可避免部分服务器空间页面出现乱码，一般无需开启。 0=关闭 1= 开启
+
+?>

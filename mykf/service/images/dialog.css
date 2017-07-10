@@ -1,0 +1,315 @@
+body {
+  width:700px;
+	font-size: 12px;
+	border:0;
+  word-break:break-all;
+  line-height:18px;
+  margin:0 auto;
+  text-align:center;
+  color:#174398;
+}
+ul,form{
+  padding:0px;
+  margin:0px;
+}
+ul{list-style:none}
+input{border: 1px solid #787878;height: 20px;font-size: 12px;padding-top: 3px;font-family: verdana,arial,helvetica,sans-serif;}
+.body{
+  width:700px;
+  height:472px;
+  text-align:left;
+  overflow:hidden;
+}
+.table{
+  margin:3px;
+  overflow:hidden;
+}
+.table .title{
+  height:28px;
+  margin:0px 1px 1px 1px;
+  overflow:hidden;
+}
+.table .title .logo{
+  float:left;
+  height:28px;
+  line-height:28px;
+  font-weight:bold;
+  padding-left:30px;
+  overflow:hidden;
+}
+.table .title .menu{
+  float:right;
+  text-align:left;
+  margin-top:2px;
+}
+.table .title .menu li{
+  float:left;
+  width:78px;
+  height:25px;
+  line-height:25px;
+  margin:0 5px 0 5px;
+  font-size:13px;
+  color:#ffffff;
+  cursor:pointer;
+  text-align:center;
+}
+.table .main{
+  clear:both;
+  height:434px;
+  margin:1px 1px 1px 1px;
+  overflow:hidden;
+}
+.table .main .left{
+  float:left;
+}
+.table .main .right{
+  float:left;
+}
+.table .main .dialog{
+  margin:5px 2px 3px 5px;
+  width:442px;
+  height:388px;
+  overflow:hidden;
+}
+.table .main .dialog .title{
+  height:25px;
+  line-height:25px;
+  padding-left:10px;
+  overflow:hidden;
+}
+.table .main .dialog .show{
+  height:240px;
+  margin:-1px 1px 1px 1px;
+  border:1px solid #6f90ca;
+  padding:2px;
+  font-size:14px;
+  background:#ffffff;
+  overflow:auto;
+	scrollbar-face-color: #F6F6f6;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #F0F2DB;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-arrow-color:  #666666;
+	scrollbar-track-color: #FCFDF9;
+	scrollbar-darkshadow-color: #cccccc; 
+}
+.table .main .dialog .other{
+  color:#000000;
+}
+.table .main .dialog .other .text{
+  height:16px;
+  padding-top:2px;
+  border:1px solid #cccccc;
+}
+.table .main .dialog .toolbar{
+  height:26px;
+  line-height:20px;
+  overflow:hidden;
+}
+.table .main .dialog .toolbar div{
+  line-height:26px;
+}
+
+.table .main .dialog .toolbar li{
+  float:left;
+  width:34px;
+  height:20px;
+  line-height:20px;
+  border:1px solid #6ea0d5;
+  margin:1px 2px 1px 0px;
+  cursor:pointer;
+  font-size:13px;
+  padding-top:1px;
+  padding-left:22px;
+}
+.table .main .dialog .input{
+  height:87px;
+  margin:0px 1px 1px 1px;
+  overflow:hidden;
+}
+.table .main .dialog .result{
+  height:83px;
+  margin:0px 1px 1px 1px;
+  border:1px solid #6f90ca;
+  padding:2px;
+  font-size:12px;
+  color:#333333;
+  background:#ffffff;
+  overflow:auto;
+	scrollbar-face-color: #F6F6f6;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #F0F2DB;
+	scrollbar-3dlight-color: #cccccc;
+	scrollbar-arrow-color:  #666666;
+	scrollbar-track-color: #FCFDF9;
+	scrollbar-darkshadow-color: #cccccc; 
+}
+.table .main .dialog textarea{
+  float:left;
+  width:320px;
+  height:89px;
+  border:0px;
+  overflow:auto;
+}
+.table .main .dialog .formresult{
+  width:200px;
+  border:1px solid #cccccc;
+  height:80px;
+}
+.table .main .dialog .btn1{
+  float:left;
+  width:91px;
+  height:66px;
+  margin:12px 5px 5px 13px;
+  cursor:pointer;
+}
+.table .main .dialog .btn2{
+  float:left;
+  width:91px;
+  height:66px;
+  margin:12px 5px 5px 13px;
+  cursor:pointer;
+}
+.table .main .info{
+  margin:5px 2px 2px 5px;
+  width:227px;
+  height:386px;
+  overflow:hidden;
+}
+.table .main .info .title{
+  height:26px;
+  line-height:26px;
+  text-align:center;
+  font-weight:bold;
+  overflow:hidden;
+}
+.table .main .info .title div{
+  float:left;
+  width:112px;
+  cursor:pointer;
+}
+.table .main .info .content{
+  height:350px;
+  padding:5px;
+  margin-top:-1px;
+  overflow:hidden;
+}
+.table .main .link{
+  clear:both;
+  height:23px;
+  line-height:23px;
+  margin:6px 7px 3px 6px;
+  overflow:hidden;
+}
+.table .main .link .title{
+  float:left;
+  width:60px;
+  padding-left:30px;
+  overflow:hidden;
+}
+.table .main .link .content{
+  float:left;
+  overflow:hidden;
+}
+.table .main .link .sounddiv{
+  width:50px;
+  float:right;
+  overflow:hidden;
+}
+.table .main .link .sounddiv input{
+  border:0;
+}
+.smiley{
+  width:385px;
+  position:relative;
+  left:0px;
+  top:-200px;
+  text-align:center;
+  z-index:61578767;
+}
+.smiley .title_ li{
+  float:left;
+  width:72px;
+  height:22px!important;
+  height:16px;
+  padding-top:6px;
+  margin:0px 1px 0px 2px;
+  cursor:pointer;
+}
+.smiley .content_{
+  clear:left;
+  height:65px;
+  margin-left:1px;
+  padding:1px 1px 1px 2px;
+}
+.smiley .content_ li{
+  float:left;
+  width:40px;
+  height:33px;
+  cursor:pointer;
+}
+.smiley .content_ img{
+  cursor:pointer;
+}
+.upload{
+  position:relative;
+  left:3px;
+  top:-184px;
+  width:400px;
+  z-index:999px;
+  text-align:left;
+  line-height:18px;
+  padding: 2px 5px 5px 2px;
+}
+.filebox{width:100px;margin-left:-38px}
+.im_to{
+  color:#008040;
+  height:18px;
+  line-height:18px;
+}
+.im_from{
+  color:#0000ff;
+  height:18px;
+  line-height:18px;
+}
+.im_content{
+  color:#000000;
+  padding-left:10px;
+}
+.im_tip{
+  color:#0000ff;
+}
+.error{
+  color:#7982c1;
+  height:18px;
+  line-height:18px;
+  padding-left:20px;
+}
+.faq_ti{
+  color:#0000ff;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.footer{
+  display:none;
+}
+.table .right .list{
+  height:449px;
+  overflow:hidden;
+  overflow-y:auto;
+}
+.table .right .list div,.table .right .list li{
+  height:18px;
+  line-height:18px;
+}
+.table .right .list .count{
+  color:red;
+}
+.table .right .list li span.icon{
+  width:18px;
+  height:18px;
+  display:inline-block;
+}
+.table .right .list .list_adduser{
+  text-align:center;
+}

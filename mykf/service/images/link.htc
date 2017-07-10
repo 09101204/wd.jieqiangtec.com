@@ -1,0 +1,6 @@
+<public:attach event="onfocus" onevent="onez()" />
+<script language="javascript">
+function onez(){
+  this.blur();
+}
+</script>
