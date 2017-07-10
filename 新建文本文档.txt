@@ -1,2 +1,22 @@
+http://shop.adjyc.com/   
+账号:cps
+密码:a12345678
+
 Administrator@505M5L5M9J2WDO1 MINGW64 /d/www/users
 $ git clone https://github.com/1569501393/wd.jieqiangtec.com.git ./wd2.jieqiangtec.com
+
+git clone时，提示warning: remote HEAD refers to nonexistent ref, unable to checkout.
+http://blog.csdn.net/whu_zhangmin/article/details/12040493
+
+[root@iZ300nn3dazZ wd2.jieqiangtec.com]# git show-ref
+d6070d23bf553ea1570f67928ce0028b8447c5b8 refs/remotes/origin/wd2.jieqiangtec.com
+
+
+数据导入报错：Got a packet bigger than‘max_allowed_packet’bytes的问题
+  http://www.2cto.com/database/201204/127371.html
+
+
+数据导入报错：Got a packet bigger than‘max_allowed_packet’bytes的问题 
+2个解决方法： 
+  
+1.临时修改：mysql>set global max_allowed_packet=524288000;修改 #512M 
