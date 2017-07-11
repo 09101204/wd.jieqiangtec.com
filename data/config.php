@@ -3,11 +3,11 @@ defined('IN_IA') or exit('Access Denied');
 
 $config = array();
 
-$config['db']['host'] = 'localhost';
+$config['db']['host'] = '59.56.69.152';
 $config['db']['username'] = 'root';
 $config['db']['password'] = '123456';
 $config['db']['port'] = '3306';
-$config['db']['database'] = 'wd';
+$config['db']['database'] = 'wd2';
 $config['db']['charset'] = 'utf8';
 $config['db']['pconnect'] = 0;
 $config['db']['tablepre'] = 'ims_';
