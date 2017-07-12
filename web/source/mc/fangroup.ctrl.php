@@ -3,6 +3,7 @@
  * [WEIXIN System] Copyright (c) 2015 012WZ.COM
  * WeiZan is NOT a free software, it under the license terms, wiexin.
  */
+
 defined('IN_IA') or exit('Access Denied');
 uni_user_permission_check('mc_fangroup');
 $dos = array('post', 'display', 'del');
@@ -10,7 +11,10 @@ $do = !empty($_GPC['do']) && in_array($do, $dos) ? $do : 'display';
 
 if($do == 'display') {
 	$account = WeAccount::create($_W['acid']);
+    // var_dump('TODO jieqiangtest==',$_W['acid']);exit;
 	$groups = $account->fetchFansGroups();
+
+
 	if(is_error($groups)) {
 		message($groups['message'], url('home/welcome/mc'), 'error');
 	} else {

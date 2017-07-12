@@ -23,6 +23,8 @@ abstract class WeAccount {
 		} else {
 			$account = account_fetch($acidOrAccount);
 		}
+
+//        var_dump('TODO jieqiangtest==',$acidOrAccount);exit;
 		if(!empty($account) && isset($account['type'])) {
 			if($account['type'] == self::TYPE_WEIXIN) {
 				load()->classs('weixin.account');
