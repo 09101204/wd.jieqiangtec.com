@@ -1,8 +1,5 @@
 <?php
-/**
- * [WECHAT 2017]
- * [WECHAT  a free software]
- */
+
 define('IN_API', true);
 require_once './framework/bootstrap.inc.php';
 load()->model('reply');
@@ -29,8 +26,7 @@ if(empty($id)) {
 	$id = intval($_GPC['id']);
 }
 if (!empty($id)) {
-	$uniacid = pdo_getcolumn('account', array('acid' => $id), 'uniacid');
-	$_W['account'] = uni_fetch($uniacid);
+	$_W['account'] = account_fetch($id);
 }
 if(empty($_W['account'])) {
 	exit('initial error hash or id');
@@ -43,11 +39,9 @@ $_W['acid'] = $_W['account']['acid'];
 $_W['uniacid'] = $_W['account']['uniacid'];
 $_W['uniaccount'] = uni_fetch($_W['uniacid']);
 $_W['account']['groupid'] = $_W['uniaccount']['groupid'];
-$_W['account']['qrcode'] = $_W['attachurl'].'qrcode_'.$_W['acid'].'.jpg?time='.$_W['timestamp'];
-$_W['account']['avatar'] = $_W['attachurl'].'headimg_'.$_W['acid'].'.jpg?time='.$_W['timestamp'];
-if (strtolower($_SERVER['REQUEST_METHOD']) != 'get'){
-	$_W['modules'] = uni_modules();
-}
+$_W['account']['qrcode'] = $_W['attachurl'].'qrcode_'.$_W['acid'].'jpg?time='.$_W['timestamp'];
+$_W['account']['avatar'] = $_W['attachurl'].'headimg_'.$_W['acid'].'jpg?time='.$_W['timestamp'];
+$_W['modules'] = uni_modules();
 
 $engine = new WeiZan();
 if (!empty($_W['setting']['copyright']['status'])) {
@@ -85,7 +79,6 @@ class WeiZan {
 		$this->modules = array_keys($_W['modules']);
 		$this->modules[] = 'cover';
 		$this->modules[] = 'default';
-		$this->modules[] = 'reply';
 		$this->modules = array_unique($this->modules);
 	}
 
@@ -145,14 +138,13 @@ class WeiZan {
 			$row = array();
 			$row['isconnect'] = 1;
 			pdo_update('account', $row, array('acid' => $_W['acid']));
-			exit(htmlspecialchars($_GET['echostr']));
+			exit($_GET['echostr']);
 		}
 		if(strtolower($_SERVER['REQUEST_METHOD']) == 'post') {
 			$postStr = file_get_contents('php://input');
 						if(!empty($_GET['encrypt_type']) && $_GET['encrypt_type'] == 'aes') {
 				$postStr = $this->account->decryptMsg($postStr);
 			}
-			WeUtility::logging('trace', $postStr);
 			$message = $this->account->parse($postStr);
 			
 			$this->message = $message;
@@ -162,6 +154,7 @@ class WeiZan {
 			}
 			$_W['openid'] = $message['from'];
 			$_W['fans'] = array('from_user' => $_W['openid']);
+			
 			$this->booking($message);
 			if($message['event'] == 'unsubscribe') {
 				$this->receive(array(), array(), array());
@@ -172,6 +165,8 @@ class WeiZan {
 			WeSession::start($_W['uniacid'], $_W['openid']);
 			
 			$_SESSION['openid'] = $_W['openid'];
+			
+			WeUtility::logging('trace', $message);
 			$pars = $this->analyze($message);
 			$pars[] = array(
 				'message' => $message,
@@ -215,7 +210,7 @@ class WeiZan {
 					}
 				}
 			}
-			WeUtility::logging('params', var_export($hitParam, true));
+			WeUtility::logging('params', $hitParam);
 			WeUtility::logging('response', $response);
 			$resp = $this->account->response($response);
 						if(!empty($_GET['encrypt_type']) && $_GET['encrypt_type'] == 'aes') {
@@ -242,12 +237,6 @@ class WeiZan {
 				echo json_encode(array('resp' => $resp, 'process' => $process));
 				exit();
 			}
-			$mapping = array(
-				'[from]' => $this->message['from'],
-				'[to]' => $this->message['to'],
-				'[rule]' => $this->params['rule']
-			);
-			$resp = str_replace(array_keys($mapping), array_values($mapping), $resp);
 			ob_start();
 			echo $resp;
 			ob_start();
@@ -277,47 +266,9 @@ class WeiZan {
 	
 	private function booking($message) {
 		global $_W;
-		if ($message['event'] == 'unsubscribe' || $message['event'] == 'subscribe') {
-			$todaystat = pdo_get('stat_fans', array('date' => date('Ymd'), 'uniacid' => $_W['uniacid']));
-			if ($message['event'] == 'unsubscribe') {
-				if (empty($todaystat)) {
-					$updatestat = array(
-						'new' => 0,
-						'uniacid' => $_W['uniacid'],
-						'cancel' => 1,
-						'cumulate' => 0,
-						'date' => date('Ymd'),
-					);
-					pdo_insert('stat_fans', $updatestat);
-				} else {
-					$updatestat = array(
-						'cancel' => $todaystat['cancel'] + 1,
-					);
-					$updatestat['cumulate'] = 0;
-					pdo_update('stat_fans', $updatestat, array('id' => $todaystat['id']));
-				}
-			} elseif ($message['event'] == 'subscribe') {
-				if (empty($todaystat)) {
-					$updatestat = array(
-						'new' => 1,
-						'uniacid' => $_W['uniacid'],
-						'cancel' => 0,
-						'cumulate' => 0,
-						'date' => date('Ymd'),
-					);
-					pdo_insert('stat_fans', $updatestat);
-				} else {
-					$updatestat = array(
-						'new' => $todaystat['new'] + 1,
-						'cumulate' => 0,
-					);
-					pdo_update('stat_fans', $updatestat, array('id' => $todaystat['id']));
-				}
-			}
-		}
-		
-		load()->model('mc');
 		$setting = uni_setting($_W['uniacid'], array('passport'));
+
+		load()->model('mc');
 		$fans = mc_fansinfo($message['from']);
 		$default_groupid = cache_load("defaultgroupid:{$_W['uniacid']}");
 		if (empty($default_groupid)) {
@@ -325,53 +276,30 @@ class WeiZan {
 			cache_write("defaultgroupid:{$_W['uniacid']}", $default_groupid);
 		}
 		if(!empty($fans)) {
-			if ($message['event'] == 'unsubscribe') {
-				pdo_update('mc_mapping_fans', array('follow' => 0, 'unfollowtime' => TIMESTAMP), array('fanid' => $fans['fanid']));
-				pdo_delete('mc_fans_tag_mapping', array('fanid' => $fans['fanid']));
-			} elseif ($message['event'] != 'ShakearoundUserShake' && $message['type'] != 'trace') {
-				$rec = array();
-				if (empty($fans['follow'])) {
+			$rec = array();
+			if (!empty($fans['follow'])) {
+				if ($message['event'] == 'unsubscribe') {
+					$rec['follow'] = 0;
+					$rec['followtime'] = 0;
+					$rec['unfollowtime'] = $message['time'];
+				}
+			} else {
+				if ($message['event'] != 'unsubscribe' && $message['event'] != 'ShakearoundUserShake') {
 					$rec['follow'] = 1;
 					$rec['followtime'] = $message['time'];
 					$rec['unfollowtime'] = 0;
 				}
-				$member = array();
-				if(!empty($fans['uid'])){
-					$member = mc_fetch($fans['uid']);
-				}
-				if (empty($member)) {
-					if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
-						$data = array(
-							'uniacid' => $_W['uniacid'],
-							'email' => md5($message['from']).'@weizancms.com',
-							'salt' => random(8),
-							'groupid' => $default_groupid,
-							'createtime' => TIMESTAMP,
-						);
-						$data['password'] = md5($message['from'] . $data['salt'] . $_W['config']['setting']['authkey']);
-						pdo_insert('mc_members', $data);
-						$rec['uid'] = pdo_insertid();
-					}
-				}
-				if(!empty($rec)){
-					pdo_update('mc_mapping_fans', $rec, array('openid' => $message['from']));
-				}
 			}
-		} else {
-			if ($message['event'] == 'subscribe' || $message['type'] == 'text' || $message['type'] == 'image') {
-				$rec = array();
-				$rec['acid'] = $_W['acid'];
-				$rec['uniacid'] = $_W['uniacid'];
-				$rec['uid'] = 0;
-				$rec['openid'] = $message['from'];
-				$rec['salt'] = random(8);
-				$rec['follow'] = 1;
-				$rec['followtime'] = $message['time'];
-				$rec['unfollowtime'] = 0;
-								if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
-										$data = array(
+			
+			$member = array();
+			if(!empty($fans['uid'])){
+				$member = mc_fetch($fans['uid']);
+			}
+			if (empty($member)) {
+				if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
+					$data = array(
 						'uniacid' => $_W['uniacid'],
-						'email' => md5($message['from']).'@weizancms.com',
+						'email' => md5($message['from']).'@012wz.com',
 						'salt' => random(8),
 						'groupid' => $default_groupid,
 						'createtime' => TIMESTAMP,
@@ -380,8 +308,44 @@ class WeiZan {
 					pdo_insert('mc_members', $data);
 					$rec['uid'] = pdo_insertid();
 				}
-				pdo_insert('mc_mapping_fans', $rec);
 			}
+			
+			if(!empty($rec)){
+				pdo_update('mc_mapping_fans', $rec, array(
+					'acid' => $_W['acid'],
+					'openid' => $message['from'],
+					'uniacid' => $_W['uniacid']
+				));
+			}
+		} else {
+			$rec = array();
+			$rec['acid'] = $_W['acid'];
+			$rec['uniacid'] = $_W['uniacid'];
+			$rec['uid'] = 0;
+			$rec['openid'] = $message['from'];
+			$rec['salt'] = random(8);
+			if ($message['event'] == 'unsubscribe') {
+				$rec['follow'] = 0;
+				$rec['followtime'] = 0;
+				$rec['unfollowtime'] = $message['time'];
+			} else {
+				$rec['follow'] = 1;
+				$rec['followtime'] = $message['time'];
+				$rec['unfollowtime'] = 0;
+			}
+						if (!isset($setting['passport']) || empty($setting['passport']['focusreg'])) {
+								$data = array(
+					'uniacid' => $_W['uniacid'],
+					'email' => md5($message['from']).'@012wz.com',
+					'salt' => random(8),
+					'groupid' => $default_groupid,
+					'createtime' => TIMESTAMP,
+				);
+				$data['password'] = md5($message['from'] . $data['salt'] . $_W['config']['setting']['authkey']);
+				pdo_insert('mc_members', $data);
+				$rec['uid'] = pdo_insertid();
+			}
+			pdo_insert('mc_mapping_fans', $rec);
 		}
 	}
 
@@ -428,61 +392,21 @@ class WeiZan {
 					@$obj->receive();
 				}
 			}
-		} elseif (!empty($subscribe['user_get_card']) && $this->message['event'] == 'user_get_card') {
-			foreach($subscribe['user_get_card'] as $modulename) {
-				$obj = WeUtility::createModuleReceiver($modulename);
-				$obj->message = $this->message;
-				$obj->params = $par;
-				$obj->response = $response;
-				$obj->keyword = $keyword;
-				$obj->module = $modules[$modulename];
-				$obj->uniacid = $_W['uniacid'];
-				$obj->acid = $_W['acid'];
-				if(method_exists($obj, 'receive')) {
-					@$obj->receive();
-				}
-			}
-		} elseif (!empty($subscribe['user_consume_card']) && $this->message['event'] == 'user_consume_card') {
-			foreach($subscribe['user_consume_card'] as $modulename) {
-				$obj = WeUtility::createModuleReceiver($modulename);
-				$obj->message = $this->message;
-				$obj->params = $par;
-				$obj->response = $response;
-				$obj->keyword = $keyword;
-				$obj->module = $modules[$modulename];
-				$obj->uniacid = $_W['uniacid'];
-				$obj->acid = $_W['acid'];
-				if(method_exists($obj, 'receive')) {
-					@$obj->receive();
-				}
-			}
-		} elseif (!empty($subscribe['user_del_card']) && $this->message['event'] == 'user_del_card') {
-			foreach($subscribe['user_del_card'] as $modulename) {
-				$obj = WeUtility::createModuleReceiver($modulename);
-				$obj->message = $this->message;
-				$obj->params = $par;
-				$obj->response = $response;
-				$obj->keyword = $keyword;
-				$obj->module = $modules[$modulename];
-				$obj->uniacid = $_W['uniacid'];
-				$obj->acid = $_W['acid'];
-				if(method_exists($obj, 'receive')) {
-					@$obj->receive();
-				}
-			}
 		} else {
-			$modules = $subscribe[$this->message['type']];
+			$modules = empty($subscribe[$this->message['event']]) ? $subscribe[$this->message['type']] : $subscribe[$this->message['type']];
 			if (!empty($modules)) {
 				foreach ($modules as $modulename) {
 					$row = array();
 					$row['uniacid'] = $_W['uniacid'];
 					$row['acid'] = $_W['acid'];
 					$row['dateline'] = $_W['timestamp'];
-					$row['message'] = iserializer($this->message);
+					$row['message'] = iserializer($par['message']);
 					$row['keyword'] = iserializer($keyword);
+					unset($par['message']);
+					unset($par['keyword']);
 					$row['params'] = iserializer($par);
 					$row['response'] = iserializer($response);
-					$row['module'] = $modulename;
+					$row['module'] = $par['module'];
 					$row['type'] = 1;
 					pdo_insert('core_queue', $row);
 				}
@@ -504,6 +428,9 @@ class WeiZan {
 		}
 		if(!empty($_SESSION['__contextmodule']) && in_array($_SESSION['__contextmodule'], $this->modules)) {
 			if($_SESSION['__contextexpire'] > TIMESTAMP) {
+				if($_SESSION['__contextpriority'] < 255 && $message['type'] == 'text') {
+					$params += $this->analyzeText($message, intval($_SESSION['__contextpriority']));
+				}
 				$params[] = array(
 					'message' => $message,
 					'module' => $_SESSION['__contextmodule'],
@@ -526,31 +453,22 @@ class WeiZan {
 		} else {
 			$params += $this->handler($message['type']);
 		}
+
 		return $params;
 	}
 	
 	private function analyzeSubscribe(&$message) {
 		global $_W;
 		$params = array();
-		$message['type'] = 'text'; 
+		$message['type'] = 'text';
 		$message['redirection'] = true;
 		if(!empty($message['scene'])) {
 			$message['source'] = 'qr';
 			$sceneid = trim($message['scene']);
-			$scene_condition = '';
-			if (is_numeric($sceneid)) {
-				$scene_condition = " `qrcid` = '{$sceneid}'";
-			}else{
-				$scene_condition = " `scene_str` = '{$sceneid}'";
-			}
-			$qr = pdo_fetch("SELECT `id`, `keyword` FROM " . tablename('qrcode') . " WHERE {$scene_condition} AND `uniacid` = '{$_W['uniacid']}'");
+			$qr = pdo_fetch("SELECT `id`, `keyword` FROM " . tablename('qrcode') . " WHERE (`qrcid` = '{$sceneid}' OR `scene_str` = '{$sceneid}') AND `uniacid` = '{$_W['uniacid']}'");
 			if(!empty($qr)) {
 				$message['content'] = $qr['keyword'];
-				if (!empty($qr['type']) && $qr['type'] == 'scene') {
-					$message['msgtype'] = 'text';
-				}
 				$params += $this->analyzeText($message);
-				return $params;
 			}
 		}
 		$message['source'] = 'subscribe';
@@ -571,35 +489,11 @@ class WeiZan {
 		if(!empty($message['scene'])) {
 			$message['source'] = 'qr';
 			$sceneid = trim($message['scene']);
-			$scene_condition = '';
-			if (is_numeric($sceneid)) {
-				$scene_condition = " `qrcid` = '{$sceneid}'";
-			}else{
-				$scene_condition = " `scene_str` = '{$sceneid}'";
+			$qr = pdo_fetch("SELECT `id`, `keyword` FROM " . tablename('qrcode') . " WHERE (`qrcid` = '{$sceneid}' OR `scene_str` = '{$sceneid}') AND `uniacid` = '{$_W['uniacid']}'");
+			if(!empty($qr)) {
+				$message['content'] = $qr['keyword'];
+				$params += $this->analyzeText($message);
 			}
-			$qr = pdo_fetch("SELECT `id`, `keyword` FROM " . tablename('qrcode') . " WHERE {$scene_condition} AND `uniacid` = '{$_W['uniacid']}'");
-	
-		}
-		if (empty($qr) && !empty($message['ticket'])) {
-			$message['source'] = 'qr';
-			$ticket = trim($message['ticket']);
-			if(!empty($ticket)) {
-				$qr = pdo_fetchall("SELECT `id`, `keyword` FROM " . tablename('qrcode') . " WHERE `uniacid` = '{$_W['uniacid']}' AND ticket = '{$ticket}'");
-				if(!empty($qr)) {
-					if(count($qr) != 1) {
-						$qr = array();
-					} else {
-						$qr = $qr[0];
-					}
-				}
-			}
-		}
-		if(!empty($qr)) {
-			$message['content'] = $qr['keyword'];
-			if (!empty($qr['type']) && $qr['type'] == 'scene') {
-				$message['msgtype'] = 'text';
-			}
-			$params += $this->analyzeText($message);
 		}
 		return $params;
 	}
@@ -613,11 +507,7 @@ class WeiZan {
 		if(!isset($message['content'])) {
 			return $pars;
 		}
-				$cachekey = 'we7:' . $_W['uniacid'] . ':keyword:' . md5($message['content']);
-		$keyword_cache = cache_load($cachekey);
-		if (!empty($keyword_cache) && $keyword_cache['expire'] > TIMESTAMP) {
-			return $keyword_cache['data'];
-		}
+		
 		$condition = <<<EOF
 `uniacid` IN ( 0, {$_W['uniacid']} )
 AND 
@@ -653,16 +543,10 @@ EOF;
 				'module' => $keyword['module'],
 				'rule' => $keyword['rid'],
 				'priority' => $keyword['displayorder'],
-				'keyword' => $keyword,
-				'reply_type' => $keyword['reply_type']
+				'keyword' => $keyword
 			);
 			$pars[] = $params;
 		}
-		$cache = array(
-			'data' => $pars,
-			'expire' => TIMESTAMP + 5 * 60,
-		);
-		cache_write($cachekey, $cache);
 		return $pars;
 	}
 	
@@ -674,11 +558,7 @@ EOF;
 			$message['content'] = strval($message['eventkey']);
 			return $this->analyzeClick($message);
 		}
-		if (strtolower($message['event']) == 'user_gifting_card') {
-			return $this->analyzeCoupon($message);
-		}
 		if (in_array($message['event'], array('pic_photo_or_album', 'pic_weixin', 'pic_sysphoto'))) {
-			pdo_query("DELETE FROM ".tablename('menu_event')." WHERE createtime < '".($GLOBALS['_W']['timestamp'] - 100)."' OR openid = '{$message['from']}'");
 			if (!empty($message['sendpicsinfo']['count'])) {
 				foreach ($message['sendpicsinfo']['piclist'] as $item) {
 					pdo_insert('menu_event', array(
@@ -686,23 +566,10 @@ EOF;
 						'keyword' => $message['eventkey'],
 						'type' => $message['event'],
 						'picmd5' => $item,
-						'openid' => $message['from'],
-						'createtime' => TIMESTAMP,
 					));
 				}
-			} else {
-				pdo_insert('menu_event', array(
-					'uniacid' => $GLOBALS['_W']['uniacid'],
-					'keyword' => $message['eventkey'],
-					'type' => $message['event'],
-					'picmd5' => $item,
-					'openid' => $message['from'],
-					'createtime' => TIMESTAMP,
-				));
 			}
-			$message['content'] = strval($message['eventkey']);
-			$message['source'] = $message['event'];
-			return $this->analyzeText($message);
+			return true;
 		}
 		if (!empty($message['eventkey'])) {
 			$message['content'] = strval($message['eventkey']);
@@ -711,7 +578,6 @@ EOF;
 			$message['source'] = $message['event'];
 			return $this->analyzeText($message);
 		}
-		return $this->handler($message['event']);
 	}
 	
 	private function analyzeClick(&$message) {
@@ -719,6 +585,7 @@ EOF;
 			$message['type'] = 'text';
 			$message['redirection'] = true;
 			$message['source'] = 'click';
+
 			return $this->analyzeText($message);
 		}
 
@@ -734,12 +601,7 @@ EOF;
 				$event = pdo_fetch("SELECT keyword, type FROM ".tablename('menu_event')." WHERE picmd5 = '$md5'");
 				if (!empty($event['keyword'])) {
 					pdo_delete('menu_event', array('picmd5' => $md5));
-				} else {
-					$event = pdo_fetch("SELECT keyword, type FROM ".tablename('menu_event')." WHERE openid = '{$message['from']}'");
-				}
-				if (!empty($event)) {
 					$message['content'] = $event['keyword'];
-					$message['eventkey'] = $event['keyword'];
 					$message['type'] = 'text';
 					$message['event'] = $event['type'];
 					$message['redirection'] = true;
@@ -763,72 +625,6 @@ EOF;
 			return $params;
 		}
 	}
-	
-	public function analyzeCoupon(&$message) {
-		global $_W;
-		$data = array();
-				if ($message['event'] == 'poi_check_notify') {
-			$data['status'] = ($message['result'] == 'succ') ? 1 : 3;
-			$data['location_id'] = trim($message['poiid']);
-			$data['message'] = trim($message['msg']);
-			$id = intval($message['uniqid']);
-			pdo_update('activity_stores', $data, array('id' => $id, 'uniacid' => $_W['uniacid']));
-		} elseif (in_array($message['event'], array('card_pass_check', 'card_not_pass_check'))) {
-						$data['status'] = ($message['event'] == 'card_pass_check') ? 3 : 2;
-			$card_id = trim($message['cardid']);
-			$is_exist = pdo_getcolumn('coupon', array('card_id' => $card_id));
-			if(!empty($is_exist)) {
-				pdo_update('coupon', $data, array('card_id' => $card_id));
-			}
-		} elseif ($message['event'] == 'user_get_card') {
-						load()->model('activity');
-			if (empty($message['isgivebyfriend'])) {
-				$coupon_record = pdo_get('coupon_record', array('card_id' => trim($message['cardid']), 'openid' => trim($message['fromusername']), 'status' => '1', 'code' => ''), array('id'));
-				if (!empty($coupon_record)) {
-					pdo_update('coupon_record', array('code' => trim($message['usercardcode'])),array('id' => $coupon_record['id']));
-				} else {
-					$fans_info = mc_fansinfo($message['fromusername']);
-					$coupon_info = pdo_get('coupon', array('card_id' => $message['cardid']));
-					$pcount = pdo_fetchcolumn("SELECT count(*) FROM " . tablename('coupon_record') . " WHERE `openid` = :openid AND `couponid` = :couponid", array(':couponid' => $coupon_info['id'], ':openid' => trim($message['fromusername'])));
-					if ($pcount < $coupon_info['get_limit'] && $coupon_info['quantity'] > 0) {
-						$insert_data = array(
-							'uniacid' => $fans_info['uniacid'],
-							'card_id' => $message['cardid'],
-							'openid' => $message['fromusername'],
-							'code' => $message['usercardcode'],
-							'addtime' => TIMESTAMP,
-							'status' => '1',
-							'uid' => $fans_info['uid'],
-							'remark' => '用户通过投放扫码',
-							'couponid' => $coupon_info['id']
-						);
-						pdo_insert('coupon_record', $insert_data);
-						pdo_update('coupon', array('quantity' => $coupon_info['quantity'] - 1, 'dosage' => $coupon_info['dosage'] + 1), array('uniacid' => $fans_info['uniacid'],'id' => $coupon_info['id']));
-					}
-				}
-			} else {
-				$old_record = pdo_get('coupon_record', array('openid' => trim($message['friendusername']), 'card_id' => trim($message['cardid']), 'code' => trim($message['oldusercardcode'])));
-				pdo_update('coupon_record', array('addtime' => TIMESTAMP, 'givebyfriend' => intval($message['isgivebyfriend']), 'openid' => trim($message['fromusername']), 'code' => trim($message['usercardcode']), 'status' => '1'), array('id' => $old_record['id']));
-			}
-			$this->receive();
-		} elseif ($message['event'] == 'user_del_card') {
-						$card_id = trim($message['cardid']);
-			$openid = trim($message['fromusername']);
-			$code = trim($message['usercardcode']);
-			pdo_update('coupon_record', array('status' => 4), array('card_id' => $card_id, 'openid' => $openid, 'code' => $code));
-			$this->receive();
-		} elseif ($message['event'] == 'user_consume_card') {
-						$card_id = trim($message['cardid']);
-			$openid = trim($message['fromusername']);
-			$code = trim($message['usercardcode']);
-			if (!empty($message['locationid'])) {
-				$stores_info = pdo_get('activity_stores', array('location_id' => $message['locationid']), array('id'));
-			}
-			pdo_update('coupon_record', array('status' => 3, 'usetime' => TIMESTAMP, 'store_id' => $stores_info['id']), array('card_id' => $card_id, 'openid' => $openid, 'code' => $code));
-			$this->receive();
-		}
-				exit('success');
-	}
 
 	
 	private function handler($type) {
@@ -838,25 +634,15 @@ EOF;
 		global $_W;
 		$params = array();
 		$setting = uni_setting($_W['uniacid'], array('default_message'));
-		$default_message = $setting['default_message'];
-		if(is_array($default_message) && !empty($default_message[$type]['type'])) {
-			if ($default_message[$type]['type'] == 'keyword') {
-				$message = $this->message;
-				$message['type'] = 'text';
-				$message['redirection'] = true;
-				$message['source'] = $type;
-				$message['content'] = $default_message[$type]['keyword'];
-				return $this->analyzeText($message);
-			} else {
-				$params[] = array(
-					'message' => $this->message,
-					'module' => is_array($default_message[$type]) ? $default_message[$type]['module'] : $default_message[$type],
-					'rule' => '-1',
-				);
-				return $params;
-			}
+		$df = $setting['default_message'];
+		if(is_array($df) && isset($df[$type]) && in_array($df[$type], $this->modules)) {
+			$params[] = array(
+				'module' => $df[$type],
+				'rule' => '-1',
+			);
 		}
-		return array();
+
+		return $params;
 	}
 
 	
@@ -865,14 +651,10 @@ EOF;
 		if(empty($param['module']) || !in_array($param['module'], $this->modules)) {
 			return false;
 		}
-		if ($param['module'] == 'reply') {
-			$processor = WeUtility::createModuleProcessor('core');
-		} else {
-			$processor = WeUtility::createModuleProcessor($param['module']);
-		}
+		
+		$processor = WeUtility::createModuleProcessor($param['module']);
 		$processor->message = $param['message'];
 		$processor->rule = $param['rule'];
-		$processor->reply_type = $param['reply_type'];
 		$processor->priority = intval($param['priority']);
 		$processor->inContext = $param['context'] === true;
 		$response = $processor->respond();
@@ -905,5 +687,3 @@ EOF;
 		exit($resp);
 	}
 }
-
-

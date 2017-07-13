@@ -1,3 +1,19 @@
+1569501393@qq.com
+
+
+源码
+https://pan.baidu.com/share/home?uk=3020733943#category/type=0
+
+微站功能
+http://shop.adjyc.com/web/index.php?c=home&a=welcome&do=site&
+
+本地新版本
+http://localhost/users/wd5.jieqiangtec.com/web/index.php?c=home&a=welcome&do=system&
+
+论坛
+http://bbs.2jin1.com/forum.php
+
+
 大家知道微擎是基于什么框架的吗？？？？
 https://www.v2ex.com/t/293837
 
