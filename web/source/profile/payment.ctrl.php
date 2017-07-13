@@ -57,7 +57,7 @@ if($_W['ispost']) {
 		message('请输入完整的银联支付接口信息.');
 	}
 	if ($unionpay['switch'] && empty($_FILES['unionpay']['tmp_name']['signcertpath']) && !file_exists(IA_ROOT . '/attachment/unionpay/PM_'.$_W['uniacid'].'_acp.pfx')) {
-		message('请上联银商户私钥证书.');
+		message('请上传联银商户私钥证书.');
 	}
 	$baifubao = array_elements(array('switch', 'signkey', 'mchid'), $_GPC['baifubao']);
 	$baifubao['switch'] = $baifubao['switch'] == 'true';

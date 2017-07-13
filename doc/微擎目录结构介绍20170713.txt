@@ -1,11 +1,27 @@
+大家知道微擎是基于什么框架的吗？？？？
+https://www.v2ex.com/t/293837
+
+
+更新
+http://wd2.jieqiangtec.com/web/index.php?c=system&a=sysinfo&
+
+http://www.012wz.com/
+
+
 支付配置
 http://wd2.jieqiangtec.cn/web/index.php?c=profile&a=payment&
 
 ims_uni_settings
 SELECT * FROM `ims_uni_settings` ORDER BY `uniacid` DESC LIMIT 0, 1000
 
+INSERT INTO `wd2`.`ims_ewei_shop_member` (`id`, `uniacid`, `uid`, `groupid`, `level`, `agentid`, `openid`, `realname`, `mobile`, `pwd`, `weixin`, `content`, `createtime`, `agenttime`, `status`, `isagent`, `clickcount`, `agentlevel`, `noticeset`, `nickname`, `credit1`, `credit2`, `birthyear`, `birthmonth`, `birthday`, `gender`, `avatar`, `province`, `city`, `area`, `childtime`, `inviter`, `agentnotupgrade`, `agentselectgoods`, `agentblack`, `fixagentid`) VALUES ('91', '5', '199', '0', '0', '0', 'oZo4hw8Wt565YLamn2TJqGExQirA', '强哥', '18999999999', '', 'jieqiang', NULL, '1499792454', '0', '0', '0', '0', '0', NULL, '街墙', '0', '0.00', '2017', '05', '01', '1', 'http://wx.qlogo.cn/mmopen/HImTr9Y5bJXOQ4MepvkH30XGia86KLWCuMh7tIeoP1EFeCUFlHAnFndPeLkg9gNkTAP5pLcvRam0TTxgobrsQJwlTDnLcCDwM/132', '福建省', '厦门市', '', '0', '0', '0', '0', '0', '0');
+
+
 图片
 http://wd2.jieqiangtec.com/attachment/images/5/2017/07/k0FQlfuTs0rfsqtz707tuBHubyUtl0.jpg
+
+商品详情
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=23?sid=1&sname=admin&item_id=23&push_id=29&shop_id=1&con_id=5&rate=20&cate_id=0&cate_name=%E7%8F%A0%E5%AE%9D%E9%85%8D%E9%A5%B0&bank_id=1&bank_subid=&user_id=cps%E5%B9%B3%E5%8F%B0
 
 
 添加用户

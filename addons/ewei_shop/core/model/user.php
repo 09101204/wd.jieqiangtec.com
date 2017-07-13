@@ -99,7 +99,8 @@ class Ewei_DShop_User
 					$need_openid = false;
 				}
             }
-            if (empty($userinfo['openid']) && $need_openid) {
+            // TODO jieqiangtest 调试屏蔽
+            /*if (empty($userinfo['openid']) && $need_openid) {
                 die("<!DOCTYPE html>
                 <html>
                     <head>
@@ -110,7 +111,7 @@ class Ewei_DShop_User
                     <div class='page_msg'><div class='inner'><span class='msg_icon_wrp'><i class='icon80_smile'></i></span><div class='msg_content'><h4>请在微信客户端打开链接</h4></div></div></div>
                     </body>
                 </html>");
-            }
+            }*/
         }
         if ($base64) {
             return urlencode(base64_encode(json_encode($userinfo)));
