@@ -157,7 +157,14 @@ class DB {
 		$statement = $this->prepare($sql);
 //        var_dump($this);exit;
 		$result = $statement->execute($params);
-        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.phpfetch($sql, $params = array()) ','sql'=>$sql,'$params'=>$params));
+
+        foreach ($params as $key=>$val){
+            $arr1[] = $key;
+            $arr2[] = '\''.$val.'\'';
+        }
+        $sql2 = str_replace($arr1,$arr2,$sql);
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array()) ','sql2'=>$sql2,'$params'=>$params));
+//        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array()) ','sql2'=>$sql2,'sql'=>$sql,'$params'=>$params));
 		if(PDO_DEBUG) {
 			$info = array();
 			$info['sql'] = $sql;
