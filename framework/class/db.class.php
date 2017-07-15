@@ -16,6 +16,7 @@ class DB {
 	protected $link = array();
 
 	public function getPDO() {
+//        var_dump($this,$this->pdo);
 		return $this->pdo;
 	}
 
@@ -52,7 +53,9 @@ class DB {
 			include IA_ROOT . '/framework/library/pdo/PDO.class.php';
 			$dbclass = 'PDO';
 		}
-		$this->pdo = new $dbclass($dsn, $cfg['username'], $cfg['password'], $options);
+        $this->pdo = new $dbclass($dsn, $cfg['username'], $cfg['password'], $options);
+//        var_dump($dbclass);exit;
+//        $this->pdo = new PDO($dsn, $cfg['username'], $cfg['password'], $options);
 		$sql = "SET NAMES '{$cfg['charset']}';";
 		$this->pdo->exec($sql);
 		$this->pdo->exec("SET sql_mode='';");
@@ -68,12 +71,36 @@ class DB {
 	}
 
 	public function prepare($sql) {
+//	    var_dump($this,$this->pdo);exit;
+        /*object(DB)[2]
+  protected 'pdo' =>
+    object(PDO)[3]
+  protected 'cfg' => null
+  protected 'tablepre' => string 'ims_' (length=4)
+  protected 'result' => null
+  protected 'statement' => null
+  protected 'errors' =>
+    array (size=1)
+      0 =>
+        array (size=2)
+          'sql' => string 'SET NAMES 'utf8';' (length=17)
+          'error' =>
+            array (size=3)
+              0 => string '00000' (length=5)
+              1 => null
+              2 => null
+  protected 'link' =>
+    array (size=0)
+      empty
+      object(PDO)[3]*/
 		$statement = $this->pdo->prepare($sql);
 		return $statement;
 	}
 	
 	
 	public function query($sql, $params = array()) {
+		// var_dump('TODO jieqiangtest==',$query);
+		
 		$starttime = microtime();
 		if (empty($params)) {
 			$result = $this->pdo->exec($sql);
@@ -128,7 +155,9 @@ class DB {
 	public function fetch($sql, $params = array()) {
 		$starttime = microtime();
 		$statement = $this->prepare($sql);
+//        var_dump($this);exit;
 		$result = $statement->execute($params);
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.phpfetch($sql, $params = array()) ','sql'=>$sql,'$params'=>$params));
 		if(PDO_DEBUG) {
 			$info = array();
 			$info['sql'] = $sql;
