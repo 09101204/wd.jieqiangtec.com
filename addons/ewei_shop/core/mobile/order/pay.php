@@ -274,6 +274,10 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
+        $_SESSION['prom']['status'] = '1';
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+
+
 
         http_request(CPS_API,$_SESSION['prom']);
 		$ret = array();
