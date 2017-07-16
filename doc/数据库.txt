@@ -1,0 +1,71 @@
+日志
+D:\www\users\wd2.jieqiangtec.com\framework\function\logging.func.php:
+   11  	$filename .= '.log';
+   function logging_run($log, $type = 'normal', $filename = 'run', $includePost = true) {
+	global $_W;
+	$filename .= '.log';
+
+	$path = IA_ROOT . '/data/logs/';
+ 
+D:\www\users\wd2.jieqiangtec.com\framework\class\account.class.php:
+  609  	
+  610  	public static function logging($level = 'info', $message = '') {
+
+
+
+
+
+数据库
+D:\www\users\wd2.jieqiangtec.com\framework\function\pdo.func.php	L39
+D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDO_mysql.class.php
+http://wd2.jieqiangtec.cn/web/index.php?c=home&a=welcome&
+
+/framework/class/db.class.php
+/framework/function/pdo.func.php
+/framework/model/module.mod.php
+/framework/class/account.class.php
+/app/source/entry/__init.php
+/app/index.php
+
+
+
+2017-07-13 23:05:52 SQL Error :
+------------
+String:
+SQL: <br/>SELECT `main_module` FROM `ims_modules_plugin` WHERE `name` =  :__name LIMIT 1<hr/>Params: <br/>array (
+  ':__name' => 'ewei_shop',
+)<hr/>SQL Error: <br/>Table 'wd2.ims_modules_plugin' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 162; <br />file: /framework/class/db.class.php; line: 220; <br />file: /framework/class/db.class.php; line: 276; <br />file: /framework/function/pdo.func.php; line: 61; <br />file: /framework/model/module.mod.php; line: 232; <br />file: /framework/class/account.class.php; line: 462; <br />file: /app/source/entry/__init.php; line: 28; <br />file: /app/index.php; line: 83; <br />
+
+
+
+
+SELECT * FROM `ims_modules_plugin` WHERE `main_module` ='ewei_shop'
+
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_users`  WHERE 1  AND `uid`=:uid LIMIT 1' (length=58)
+array (size=1)
+  ':uid' => int 1
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_userapi_reply` WHERE `rid`=:rid' (length=50)
+array (size=1)
+  ':rid' => string '1' (length=1)
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_userapi_reply` WHERE `rid`=:rid' (length=50)
+array (size=1)
+  ':rid' => string '2' (length=1)
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_userapi_reply` WHERE `rid`=:rid' (length=50)
+array (size=1)
+  ':rid' => string '3' (length=1)
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_userapi_reply` WHERE `rid`=:rid' (length=50)
+array (size=1)
+  ':rid' => string '4' (length=1)
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_userapi_reply` WHERE `rid`=:rid' (length=50)
+array (size=1)
+  ':rid' => string '5' (length=1)
+string 'TODO jieqiangtest==' (length=19)
+string 'SELECT * FROM `ims_userapi_reply` WHERE `rid`=:rid' (length=50)
+array (size=1)
+  ':rid' => string '6' (length=1)

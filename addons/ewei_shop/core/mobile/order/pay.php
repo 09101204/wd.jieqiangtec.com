@@ -70,6 +70,8 @@ if ($operation == 'display' && $_W['isajax']) {
 			$unionpay['success'] = true;
 		}
 	}
+
+
 	$cash = array('success' => $order['cash'] == 1 && isset($set['pay']) && $set['pay']['cash'] == 1);
 	$returnurl = urlencode($this->createMobileUrl('order/pay', array('orderid' => $orderid)));
 	show_json(1, array('order' => $order, 'set' => $set, 'credit' => $credit, 'wechat' => $wechat, 'alipay' => $alipay, 'unionpay' => $unionpay, 'cash' => $cash, 'isweixin' => is_weixin(), 'currentcredit' => $currentcredit, 'returnurl' => $returnurl));
@@ -183,6 +185,7 @@ if ($operation == 'display' && $_W['isajax']) {
 		show_json(1);
 	}
 } else if ($operation == 'complete' && $_W['ispost']) {
+
 	$order = pdo_fetch('select * from ' . tablename('ewei_shop_order') . ' where id=:id and uniacid=:uniacid and openid=:openid limit 1', array(':id' => $orderid, ':uniacid' => $uniacid, ':openid' => $openid));
 	if (empty($order)) {
 		show_json(0, '订单未找到!');

@@ -7,6 +7,7 @@ defined('IN_IA') or exit('Access Denied');
 
 
 function pdo() {
+	
 	global $_W;
 	static $db;
 	if(empty($db)) {
@@ -37,6 +38,8 @@ function pdo_fetchcolumn($sql, $params = array(), $column = 0) {
 }
 
 function pdo_fetch($sql, $params = array()) {
+//    var_dump('TODO jieqiangtest==',$sql,$params);
+//    WeUtility::logging('debug',  array('sql'=>$sql,'$params'=>$params));
 	return pdo()->fetch($sql, $params);
 }
 

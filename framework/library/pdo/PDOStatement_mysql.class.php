@@ -114,9 +114,12 @@ class PDOStatement_mysql {
 		 * @Return	Boolean		true if query has been done without errors, false otherwise
 	 */
 	function execute($array = Array()) {
+		// var_dump(11122233);exit;
 		if(count($this->__boundParams) > 0)
 			$array = &$this->__boundParams;
 		$__query = $this->__query;
+
+
 		if(count($array) > 0) {
 			foreach($array as $k => $v) {
 				if(!is_int($k) || substr($k, 0, 1) === ':') {
@@ -139,6 +142,9 @@ class PDOStatement_mysql {
 				//$__query = str_replace($tempf, $tempr, $__query);
 			}
 		}
+
+        WeUtility::logging('TODO debug',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDOStatement_mysql.class.php','$__query'=>$__query));
+
 		if(is_null($this->__result = &$this->__uquery($__query)))
 			$keyvars = false;
 		else
@@ -351,6 +357,8 @@ class PDOStatement_mysql {
 	}
 
 	function __uquery(&$query) {
+        WeUtility::logging('TODO debug',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDOStatement_mysql.class.php $query2','$query'=>$query));
+
 		if(!@$query = mysql_query($query, $this->__connection)) {
 			$this->__setErrors('SQLER');
 			$query = null;

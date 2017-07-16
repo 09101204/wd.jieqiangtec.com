@@ -2,6 +2,43 @@
 jieyancai666
 
 
+
+请添加支付授权目录
+http://
+   添加
+http://wd.jieqiangtec.com/payment/wechat/删除
+http://wmwx.jieqiangtec.com/wxpay/
+
+http://shop.adjyc.com/app/
+
+
+余额支付(当前余额:9999071.00)
+mch_id参数长度有误
+
+
+:
+微信支付商户号
+
+1485461622
+商户平台登录帐号
+
+1485461622@1485461622
+商户平台登录密码
+
+设置API密钥:ab235bf8be745b7d2c268ed8723020e2
+ab235bf8be745b7d2c268ed8723020e2
+
+918659
+申请对应的公众号
+
+adjyc（）
+公众号APPID
+
+wxb797d06f10b3f641
+:
+你qq邮箱发我
+
+
 商城入口：
 http://shop.adjyc.com/app/index.php?i=5&c=entry&eid=14
 

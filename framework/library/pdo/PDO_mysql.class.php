@@ -46,6 +46,7 @@ class PDO_mysql {
 		 * @Param	String		database password
 	 */
 	function PDO_mysql(&$host, &$db, &$user, &$pass) {
+
 		if(!@$this->__connection = &mysql_connect($host, $user, $pass))
 			$this->__setErrors('DBCON');
 		else {
@@ -101,6 +102,7 @@ class PDO_mysql {
 		 * @Return	Mixed		Number of affected rows or false on bad query.
 	 */
 	function exec($query) {
+		// var_dump('TODO jieqiangtest==',$query);
 		$result = 0;
 		if(!is_null($this->__uquery($query)))
 			$result = mysql_affected_rows($this->__connection);

@@ -12,6 +12,7 @@ class SlaveDb extends DB {
 	private $slaveid = null;
 
 	public function execute($sql, $params = array()) {
+		// var_dump(111222);exit;
 		$this->init_connect($sql);
 		parent::execute($sql, $params);
 	}

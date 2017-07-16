@@ -164,6 +164,7 @@ if(!class_exists('PDO')) {
 		 *	http://us2.php.net/manual/en/function.pdo-exec.php
 		 */
 		function exec($query) {
+            WeUtility::logging('TODO debug PDO1',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDO.class.php exec()==','$query'=>$query));
 			return $this->__driver->exec($query);
 		}
 
@@ -204,6 +205,7 @@ if(!class_exists('PDO')) {
 		 *	http://us2.php.net/manual/en/function.pdo-prepare.php
 		 */
 		function prepare($query, $array = Array()) {
+//		    var_dump($query);exit;
 			return $this->__driver->prepare($query, $array = Array());
 		}
 
@@ -212,6 +214,7 @@ if(!class_exists('PDO')) {
 		 *	http://us2.php.net/manual/en/function.pdo-query.php
 		 */
 		function query($query) {
+//            var_dump($query);exit;
 			return $this->__driver->query($query);
 		}
 
@@ -275,6 +278,7 @@ else {
 		const ATTR_SERVER_INFO = PDO::ATTR_SERVER_INFO;
 		const ATTR_PERSISTENT = PDO::ATTR_PERSISTENT;
 		var $__driver;
+
 		function _PDO($string_dsn, $string_username = '', $string_password = '', $array_driver_options = null) {
 			$con = &$this->__getDNS($string_dsn);
 			if($con['dbtype'] === 'mysql') {
@@ -310,6 +314,7 @@ else {
 			$this->__driver->commit();
 		}
 		function exec($query) {
+            WeUtility::logging('TODO debug PDO2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDO.class.php exec()==','$query'=>$query));
 			return $this->__driver->exec($query);
 		}
 		function errorCode() {
@@ -325,9 +330,11 @@ else {
 			return $this->__driver->lastInsertId();
 		}
 		function prepare($query, $array = Array()) {
+            WeUtility::logging('TODO debug',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDO.class.php prepare()==','$query'=>$query,'$array'=>$array));
 			return $this->__driver->prepare($query, $array = Array());
 		}
 		function query($query) {
+            WeUtility::logging('TODO debug',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\library\pdo\PDO.class.php query()==','$query'=>$query));
 			return $this->__driver->query($query);
 		}
 		function quote($string) {
