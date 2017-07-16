@@ -3,6 +3,8 @@
 if (!defined('IN_IA')) {
     exit('Access Denied');
 }
+
+
 global $_W, $_GPC;
 $openid = m('user')->getOpenid();
 $member = m('member')->getMember($openid);
@@ -13,6 +15,12 @@ $shop = set_medias(m('common')->getSysset('shop'), 'logo');
 $shop['url'] = $this->createMobileUrl('shop');
 $mid = intval($_GPC['mid']);
 $opencommission = false;
+
+
+// 推广信息存入session
+$_SESSION['prom'] = $_GET;
+// var_dump($_GET,$_W,$_GPC,$_SESSION);exit;
+
 if (p('commission')) {
 	if (empty($member['agentblack'])) {
 		$cset = p('commission')->getSet();

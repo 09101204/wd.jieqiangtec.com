@@ -3,6 +3,8 @@
 if (!defined('IN_IA')) {
     exit('Access Denied');
 }
+
+//var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
 global $_W, $_GPC;
 $operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
 $openid    = m('user')->getOpenid();

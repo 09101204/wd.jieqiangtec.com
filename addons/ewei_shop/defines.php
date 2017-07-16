@@ -11,3 +11,6 @@ define('EWEI_SHOP_DEBUG', false);//false
 !defined('EWEI_SHOP_URL') && define('EWEI_SHOP_URL', $_W['siteroot'] . 'addons/ewei_shop/');
 !defined('EWEI_SHOP_STATIC') && define('EWEI_SHOP_STATIC', EWEI_SHOP_URL . 'static/');
 !defined('EWEI_SHOP_PREFIX') && define('EWEI_SHOP_PREFIX', 'ewei_shop_');
+
+// 请求接口
+!defined('CPS_API') && define('CPS_API', 'http://cps.adjyc.com?m=desk&a=buy');

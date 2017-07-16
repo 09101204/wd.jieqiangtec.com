@@ -4,6 +4,8 @@
 if (!defined('IN_IA')) {
     exit('Access Denied');
 }
+
+//var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
 global $_W, $_GPC;
 $operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
 $openid    = m('user')->getOpenid();
@@ -233,6 +235,43 @@ if ($operation == 'display' && $_W['isajax']) {
 		$record['type'] = 'cash';
 		pdo_update('core_paylog', $record, array('plid' => $log['plid']));
 		pdo_update('ewei_shop_order', array('paytype' => 1), array('id' => $order['id']));
+
+        // 通知商城
+        /*订单号	order_id	bigint
+        商品名称	title	varchar
+        单价(元)	item_price	decimal
+        数量	item_count	int
+        佣金比例	rate	int
+        总金额	sum_price	decimal
+        结算金额(预留)		settle_price	decimal
+        结算状态  	status	tinyint
+        推广人	seller_id	int
+        子机构   	bank_subid	int
+        推广分行  	bank_id	int
+        商品id	item_id	bigint
+        合同id   	con_id	int
+        商品类别id	category_id	int
+        商品类别名称	category_name	int*/
+
+//        $http_params['shop_id'] =$order['shop_id'];
+//        $http_params['item_id'] =$order['item_id'];
+/*        $http_params['order_id'] =$order['id'];
+        $http_params['title'] =$order['id'];
+        $http_params['item_price'] =$order['id'];
+        $http_params['item_count'] =$order['id'];
+//        $http_params['rate'] =$order['rate'];
+//        $http_params['sum_price'] =$order['id'];
+        $http_params['status'] = 1 ;
+        $http_params['seller_id'] =$order['seller_id'];
+        $http_params['bank_subid'] =$order['bank_subid'];
+//        $http_params['item_id'] =$order['id'];
+        $http_params['con_id'] =$order['con_id'];
+//        $http_params['category_id'] =$order['id'];
+//        $http_params['category_name'] =$order['id'];*/
+
+        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+        $_SESSION['prom']['shop_id'] = '11';
+        http_request(CPS_API,$_SESSION['prom']);
 		$ret = array();
 		$ret['result'] = 'success';
 		$ret['type'] = $log['type'];
