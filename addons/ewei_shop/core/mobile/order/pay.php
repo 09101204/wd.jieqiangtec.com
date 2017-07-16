@@ -1,11 +1,16 @@
 <?php
 //微信商城
+WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
 
+//var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
 if (!defined('IN_IA')) {
     exit('Access Denied');
 }
 
 //var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
+
+WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom'],'$_GPC[\'op\']'=>$_GPC['op'],'$_W[\'isajax\']'=>$_W['isajax']));
+
 global $_W, $_GPC;
 $operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
 $openid    = m('user')->getOpenid();
@@ -15,6 +20,8 @@ if (empty($openid)) {
 $member  = m('member')->getMember($openid);
 $uniacid = $_W['uniacid'];
 $orderid = intval($_GPC['orderid']);
+
+
 if ($operation == 'display' && $_W['isajax']) {
 	if (empty($orderid)) {
 		show_json(0, '参数错误!');
