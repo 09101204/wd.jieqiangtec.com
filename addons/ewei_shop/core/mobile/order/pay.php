@@ -269,9 +269,12 @@ if ($operation == 'display' && $_W['isajax']) {
 //        $http_params['category_id'] =$order['id'];
 //        $http_params['category_name'] =$order['id'];*/
 
+        $_SESSION['prom']['m'] = 'desk';
+        $_SESSION['prom']['a'] = 'buy';
         $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
-        $_SESSION['order_id'] = $order['id'];
+        $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
+
         http_request(CPS_API,$_SESSION['prom']);
 		$ret = array();
 		$ret['result'] = 'success';
