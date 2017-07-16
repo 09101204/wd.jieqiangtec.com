@@ -1,5 +1,77 @@
 1569501393@qq.com
 
+wd2.jieqiangtec.com
+
+购买接口
+http://cps.adjyc.com?m=desk&a=buy
+
+http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+http://wd2.jieqiangtec.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+
+
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=25?sid=27&sname=zhaoliu&item_id=25&push_id=32&shop_id=11&con_id=5&rate=20&cate_id=0&cate_name=珠宝配饰&shop_id=11&bank_id=13&bank_subid17=&user_id=赵六
+
+
+http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+
+
+下单
+
+35949 2017-07-16 21:20:52 TODO debug2 ：来源:
+35950 http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+35951 ------------
+35952 Array:
+35953 file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+35954 sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+35955 Array:
+35956 :acid : 5 ;
+35957 
+35958 2017-07-16 21:20:52 TODO debug2 ：来源:
+35959 http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+35960 ------------
+35961 Array:
+35962 file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+35963 sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+35964 Array:
+35965 :uid : 7 ;
+
+
+2017-07-16 21:08:01 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=66&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_order` where id='66' and uniacid='5' and openid='oZo4hw8Wt565YLamn2TJqGExQirA' limit 1 ;
+Array:
+:id : 66 ;
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-16 21:08:01 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=66&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+
+D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php
+
+
+支付
+2017-07-16 21:09:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-16 21:09:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+
+
 
 源码
 https://pan.baidu.com/share/home?uk=3020733943#category/type=0

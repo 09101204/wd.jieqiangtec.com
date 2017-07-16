@@ -2,7 +2,7 @@
 //微信商城
 WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
 
-//var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
+// var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
 if (!defined('IN_IA')) {
     exit('Access Denied');
 }

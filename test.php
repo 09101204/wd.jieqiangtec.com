@@ -6,6 +6,26 @@ require './framework/bootstrap.inc.php';
 $host = $_SERVER['HTTP_HOST'];
 
 
+$_SESSION['prom']['item_id'] = 25;
+$_SESSION['prom']['order_id'] = 63;
+
+$_SESSION['prom']['shop_id'] = '11';
+
+$_SESSION['prom']['m'] = 'desk';
+$_SESSION['prom']['a'] = 'buy';
+$_SESSION['prom']['bank_id'] = '13';
+
+$_SESSION['prom']['status'] = '1';
+
+$res = http_request('http://cps.adjyc.com/cps.php',$_SESSION['prom']);
+var_dump($res);
+exit;
+
+
+//$result = http_request(CPS_API);
+var_dump(CPS_API);exit;
+
+
 if (!empty($host)) {
 	$bindhost = pdo_fetch("SELECT * FROM ".tablename('site_multi')." WHERE bindhost = :bindhost", array(':bindhost' => $host));
 

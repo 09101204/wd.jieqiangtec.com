@@ -2,7 +2,7 @@ http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&order
 
 http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=58&openid=oZo4hw8Wt565YLamn2TJqGExQirA
 
-http://shop.adjyc.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=23?sid=1&sname=admin&item_id=23&push_id=29&shop_id=1&con_id=5&rate=20&cate_id=0&cate_name=%E7%8F%A0%E5%AE%9D%E9%85%8D%E9%A5%B0&shop_id=1&bank_id=1&bank_subid=&user_id=cps%E5%B9%B3%E5%8F%B0
+http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=23?sid=1&sname=admin&item_id=23&push_id=29&shop_id=1&con_id=5&rate=20&cate_id=0&cate_name=%E7%8F%A0%E5%AE%9D%E9%85%8D%E9%A5%B0&shop_id=1&bank_id=1&bank_subid=&user_id=cps%E5%B9%B3%E5%8F%B0
 
 
 http://shop.adjyc.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=23?sid=1&sname=admin&item_id=23&push_id=29&shop_id=1&con_id=5&rate=20&cate_id=0&cate_name=%E7%8F%A0%E5%AE%9D%E9%85%8D%E9%A5%B0&shop_id=1&bank_id=1&bank_subid=&user_id=cps%E5%B9%B3%E5%8F%B0
