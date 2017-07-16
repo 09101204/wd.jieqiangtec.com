@@ -268,7 +268,7 @@ if ($operation == 'display' && $_W['isajax']) {
         $http_params['con_id'] =$order['con_id'];
 //        $http_params['category_id'] =$order['id'];
 //        $http_params['category_name'] =$order['id'];*/
-
+//         TODO jieqiang 通知商城
         $_SESSION['prom']['m'] = 'desk';
         $_SESSION['prom']['a'] = 'buy';
         $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
@@ -277,9 +277,8 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['status'] = '1';
         WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
 
-
-
         http_request(CPS_API,$_SESSION['prom']);
+
 		$ret = array();
 		$ret['result'] = 'success';
 		$ret['type'] = $log['type'];
@@ -301,6 +300,18 @@ if ($operation == 'display' && $_W['isajax']) {
 			$record = array();
 			$record['status'] = '1';
 			$record['type'] = 'wechat';
+
+            //         TODO jieqiang 通知商城
+            $_SESSION['prom']['m'] = 'desk';
+            $_SESSION['prom']['a'] = 'buy';
+            $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+            $_SESSION['prom']['order_id'] = $order['id'];
+            $_SESSION['prom']['shop_id'] = '11';
+            $_SESSION['prom']['status'] = '1';
+            WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+
+            http_request(CPS_API,$_SESSION['prom']);
+
 			pdo_update('core_paylog', $record, array('plid' => $log['plid']));
 			$ret = array();
 			$ret['result'] = 'success';
@@ -329,6 +340,18 @@ if ($operation == 'display' && $_W['isajax']) {
 	if ($log['status'] != 1) {
 		$record = array();
 		$record['status'] = '1';
+
+        //         TODO jieqiang 通知商城
+        $_SESSION['prom']['m'] = 'desk';
+        $_SESSION['prom']['a'] = 'buy';
+        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+        $_SESSION['prom']['order_id'] = $order['id'];
+        $_SESSION['prom']['shop_id'] = '11';
+        $_SESSION['prom']['status'] = '1';
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+
+        http_request(CPS_API,$_SESSION['prom']);
+
 		$record['type'] = 'alipay';
 		pdo_update('core_paylog', $record, array('plid' => $log['plid']));
 		$ret = array();
