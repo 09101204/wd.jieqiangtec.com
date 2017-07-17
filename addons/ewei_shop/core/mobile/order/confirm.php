@@ -872,6 +872,20 @@ if ($_W['isajax']) {
 			$order['address'] = iserializer($address);
 		}
 		pdo_insert('ewei_shop_order', $order);
+
+        //         TODO jieqiang 通知商城
+        $_SESSION['prom']['m'] = 'desk';
+        $_SESSION['prom']['a'] = 'buy';
+//        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+        $_SESSION['prom']['order_id'] = $order['id'];
+        $_SESSION['prom']['shop_id'] = '11';
+        $_SESSION['prom']['status'] = '1';
+        unset($_SESSION['prom']['id']);
+        WeUtility::logging('TODO debug23',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\confirm.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
+
+        http_request(CPS_API,$_SESSION['prom']);
+
+
 		$orderid = pdo_insertid();
 		if (is_array($carrier)) {
 			$up = array('realname' => $carrier['carrier_realname'], 'mobile' => $carrier['carrier_mobile']);
