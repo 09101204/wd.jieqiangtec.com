@@ -1,6 +1,6 @@
 <?php
 //微信商城
-WeUtility::logging('TODO debug21',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
+//WeUtility::logging('TODO debug21',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
 // var_dump('TODO jieqiangtest==',CPS_API,$_SESSION['prom'],$_SESSION);exit;
 if (!defined('IN_IA')) {
@@ -9,7 +9,7 @@ if (!defined('IN_IA')) {
 
 //var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
 
-WeUtility::logging('TODO debug22',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom'],'$_GPC[\'op\']'=>$_GPC['op'],'$_W[\'isajax\']'=>$_W['isajax']));
+WeUtility::logging('TODO debug22',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','CPS_API'=>CPS_API,'sql2'=>$sql2,'prom'=>$_SESSION['prom'],'$_GPC[\'op\']'=>$_GPC['op'],'$_W[\'isajax\']'=>$_W['isajax']));
 
 global $_W, $_GPC;
 $operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
@@ -223,7 +223,7 @@ if ($operation == 'display' && $_W['isajax']) {
         //         TODO jieqiang 通知商城
         $_SESSION['prom']['m'] = 'desk';
         $_SESSION['prom']['a'] = 'buy';
-        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+//        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
@@ -321,7 +321,7 @@ if ($operation == 'display' && $_W['isajax']) {
             //         TODO jieqiang 通知商城
             $_SESSION['prom']['m'] = 'desk';
             $_SESSION['prom']['a'] = 'buy';
-            $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+//            $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
             $_SESSION['prom']['order_id'] = $order['id'];
             $_SESSION['prom']['shop_id'] = '11';
             $_SESSION['prom']['status'] = '1';
@@ -361,7 +361,7 @@ if ($operation == 'display' && $_W['isajax']) {
         //         TODO jieqiang 通知商城
         $_SESSION['prom']['m'] = 'desk';
         $_SESSION['prom']['a'] = 'buy';
-        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+//        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
