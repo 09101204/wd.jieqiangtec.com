@@ -1,6 +1,31 @@
 1569501393@qq.com
 
 wd2.jieqiangtec.com
+测试：wd2.jieqiangtec.cn
+生产：shop.adjyc.com
+
+
+http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&p=pay&do=order&m=ewei_shop&orderid=80&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+
+http://shop.adjyc.com/app/index.php?i=5&c=entry&p=pay&do=order&m=ewei_shop&orderid=80&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+
+
+./addons/ewei_shop/core/mobile/order/pay.php
+
+[root@iZ300nn3dazZ wd2.jieqiangtec.com]# find . -name 'curl.txt'
+[root@iZ300nn3dazZ wd2.jieqiangtec.com]# find . -name 'test.php'
+
+
+
+未上传完整的微信支付证书，请到【系统设置】->【支付方式】中上传!
+
+[点击这里返回上一页]   [首页]
+
+
+
+2017-07-17 13:00:10 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+
 
 购买接口
 http://cps.adjyc.com?m=desk&a=buy

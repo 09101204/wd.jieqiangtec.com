@@ -15,7 +15,7 @@ defined('IN_IA') or exit('Access Denied');
  */
 function http_request($url, $params, $method = 'GET', $header = array(), $multi = false){
 //    var_dump(111);exit;
-
+//    error_log("\n\n".$url, 3, '/data/logs/curl.txt');
 
     $opts = array(
         CURLOPT_TIMEOUT        => 30,
