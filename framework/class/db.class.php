@@ -100,6 +100,14 @@ class DB {
 	
 	public function query($sql, $params = array()) {
 		// var_dump('TODO jieqiangtest==',$query);
+
+        foreach ($params as $key=>$val){
+            $arr1[] = $key;
+            $arr2[] = '\''.$val.'\'';
+        }
+        $sql2 = str_replace($arr1,$arr2,$sql);
+        WeUtility::logging('TODO debug3',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array()) ','sql2'=>$sql2,'$params'=>$params));
+//        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php query($sql, $params = array()) ','sql2'=>$sql2,'sql'=>$sql,'$params'=>$params));
 		
 		$starttime = microtime();
 		if (empty($params)) {
@@ -186,6 +194,15 @@ class DB {
 		$starttime = microtime();
 		$statement = $this->prepare($sql);
 		$result = $statement->execute($params);
+
+        foreach ($params as $key=>$val){
+            $arr1[] = $key;
+            $arr2[] = '\''.$val.'\'';
+        }
+        $sql2 = str_replace($arr1,$arr2,$sql);
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetchall($sql, $params = array()) ','sql2'=>$sql2,'$params'=>$params));
+
+
 		if(PDO_DEBUG) {
 			$info = array();
 			$info['sql'] = $sql;
