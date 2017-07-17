@@ -227,6 +227,7 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
+        unset($_SESSION['prom']['id']);
         WeUtility::logging('TODO debug33',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
 		$pay_result = $this->payResult($ret);
@@ -292,6 +293,7 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
+        unset($_SESSION['prom']['id']);
         WeUtility::logging('TODO debug23',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
         http_request(CPS_API,$_SESSION['prom']);
@@ -325,6 +327,7 @@ if ($operation == 'display' && $_W['isajax']) {
             $_SESSION['prom']['order_id'] = $order['id'];
             $_SESSION['prom']['shop_id'] = '11';
             $_SESSION['prom']['status'] = '1';
+            unset($_SESSION['prom']['id']);
             WeUtility::logging('TODO debug24',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
             http_request(CPS_API,$_SESSION['prom']);
@@ -365,6 +368,7 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
+        unset($_SESSION['prom']['id']);
         WeUtility::logging('TODO debug25',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
         http_request(CPS_API,$_SESSION['prom']);
