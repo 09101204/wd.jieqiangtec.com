@@ -26,6 +26,9 @@ require '../../framework/bootstrap.inc.php';
 $_W['uniacid'] = $_W['weid'] = $get['attach'];
 
 $setting = uni_setting($_W['uniacid'], array('payment'));
+
+WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\payment\wechat\notify.php   ','$params'=>$params,'prom'=>$_SESSION['prom']));
+
 if(is_array($setting['payment'])) {
 	$wechat = $setting['payment']['wechat'];
 	if(!empty($wechat)) {

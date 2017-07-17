@@ -1,15 +1,15 @@
 <?php
 //微信商城
-WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
-// var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
+// var_dump('TODO jieqiangtest==',CPS_API,$_SESSION['prom'],$_SESSION);exit;
 if (!defined('IN_IA')) {
     exit('Access Denied');
 }
 
 //var_dump('TODO jieqiangtest==',$_SESSION['prom'],$_SESSION);exit;
 
-WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom'],'$_GPC[\'op\']'=>$_GPC['op'],'$_W[\'isajax\']'=>$_W['isajax']));
+WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom'],'$_GPC[\'op\']'=>$_GPC['op'],'$_W[\'isajax\']'=>$_W['isajax']));
 
 global $_W, $_GPC;
 $operation = !empty($_GPC['op']) ? $_GPC['op'] : 'display';
@@ -282,7 +282,7 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
-        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
         http_request(CPS_API,$_SESSION['prom']);
 
@@ -315,7 +315,7 @@ if ($operation == 'display' && $_W['isajax']) {
             $_SESSION['prom']['order_id'] = $order['id'];
             $_SESSION['prom']['shop_id'] = '11';
             $_SESSION['prom']['status'] = '1';
-            WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+            WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
             http_request(CPS_API,$_SESSION['prom']);
 
@@ -355,7 +355,7 @@ if ($operation == 'display' && $_W['isajax']) {
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
-        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'$_SESSION[prom]'=>$_SESSION['prom']));
+        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
         http_request(CPS_API,$_SESSION['prom']);
 
