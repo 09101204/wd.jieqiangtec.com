@@ -29,7 +29,10 @@ function http_request($url, $params, $method = 'GET', $header = array(), $multi 
     switch(strtoupper($method)){
         case 'GET':
             $opts[CURLOPT_URL] = $url . '?' . http_build_query($params);
-            // var_dump($opts[CURLOPT_URL]);
+
+            error_log("\n\n".$opts[CURLOPT_URL], 3, 'data/logs/curl.txt');
+
+//             var_dump($opts[CURLOPT_URL]); // http://cps.jieqiangtec.cn/cps.php?id=25&sid=1&sname=admin&item_id=25&push_id=32&shop_id=11&con_id=5&rate=20&cate_id=0&cate_name=%E7%8F%A0%E5%AE%9D%E9%85%8D%E9%A5%B0&bank_id=1&bank_subid=&user_id=cps%E5%B9%B3%E5%8F%B0&m=desk&a=buy&status=1&order_id=81
             break;
         case 'POST':
             //判断是否传输文件
