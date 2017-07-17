@@ -19,6 +19,7 @@ $opencommission = false;
 
 // 推广信息存入session
 $_SESSION['prom'] = $_GET;
+WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\shop\detail.php','sql2'=>$sql2,'prom=='=>$_SESSION['prom']));
 // var_dump($_GET,$_W,$_GPC,$_SESSION);exit;
 
 if (p('commission')) {
