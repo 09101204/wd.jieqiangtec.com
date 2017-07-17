@@ -1,8 +1,26 @@
 1569501393@qq.com
 
+
+去除日志记录
+
 wd2.jieqiangtec.com
 测试：wd2.jieqiangtec.cn
 生产：shop.adjyc.com
+
+
+
+纯净版：http://cps.adjyc.com/cps.php?m=admin&a=index  
+账号：admin
+密码：123456
+
+
+http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=25&sid=&sname=&item_id=25&push_id=32&con_id=5&rate=20&cate_id=0&cate_name=&shop_id=11&bank_id=13&bank_subid=&user_id=
+
+
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=shop&m=ewei_shop&p=detail&id=25&sid=&sname=&item_id=25&push_id=32&con_id=5&rate=20&cate_id=0&cate_name=&shop_id=11&bank_id=13&bank_subid=&user_id=
+
+
+http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=confirm
 
 
 http://wd2.jieqiangtec.cn/app/index.php?i=5&c=entry&p=pay&do=order&m=ewei_shop&orderid=80&openid=oZo4hw8Wt565YLamn2TJqGExQirA

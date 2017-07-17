@@ -42,7 +42,7 @@ class Ewei_DShop_Order
     public function payResult($params)
     {
 
-        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\model\order.php payResult($params)) ','$params'=>$params,'prom'=>$_SESSION['prom']));
+//        WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\model\order.php payResult($params)) ','$params'=>$params,'prom'=>$_SESSION['prom']));
 
         global $_W;
         $fee     = intval($params['fee']);
