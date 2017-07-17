@@ -288,7 +288,7 @@ if ($operation == 'display' && $_W['isajax']) {
 //         TODO jieqiang 通知商城
         $_SESSION['prom']['m'] = 'desk';
         $_SESSION['prom']['a'] = 'buy';
-        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
+//        $_SESSION['prom']['item_id'] = $order_goods['goodsid'];
         $_SESSION['prom']['order_id'] = $order['id'];
         $_SESSION['prom']['shop_id'] = '11';
         $_SESSION['prom']['status'] = '1';
