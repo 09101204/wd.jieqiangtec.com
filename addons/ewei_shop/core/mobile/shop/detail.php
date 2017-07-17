@@ -20,6 +20,10 @@ $opencommission = false;
 // 推广信息存入session
 if (empty($_SESSION['prom']['sid'])){
     $_SESSION['prom'] = $_GET;
+}else{
+    if (($_GET['item_id']) && ($_SESSION['prom']['item_id'] !== $_GET['item_id']) ){
+        $_SESSION['prom'] = $_GET;
+    }
 }
 
 WeUtility::logging('TODO debug2',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\shop\detail.php','sql2'=>$sql2,'prom=='=>$_SESSION['prom']));
