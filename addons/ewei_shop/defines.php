@@ -13,4 +13,4 @@ define('EWEI_SHOP_DEBUG', false);//false
 !defined('EWEI_SHOP_PREFIX') && define('EWEI_SHOP_PREFIX', 'ewei_shop_');
 
 // 请求接口
-!defined('CPS_API') && define('CPS_API', 'http://cps.adjyc.com');
+!defined('CPS_API') && define('CPS_API', 'http://cps.adjyc.com/cps.php');
