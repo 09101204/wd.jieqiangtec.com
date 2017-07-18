@@ -889,11 +889,11 @@ if ($_W['isajax']) {
         unset($_SESSION['prom']['id']);
         // WeUtility::logging('TODO debug23',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\confirm.php ','sql2'=>$sql2,'prom'=>$_SESSION['prom']));
 
-        $res = http_request(CPS_API,$_SESSION['prom']);
+        if ($_SESSION['prom']['sid'] && $_SESSION['prom']['item_id'] && $_SESSION['prom']['con_id'] && $_SESSION['prom']['shop_id'] && $_SESSION['prom']['bank_subid'] && $_SESSION['prom']['bank_id']  ){
+            $res = http_request(CPS_API,$_SESSION['prom']);
+        }
 
-        $curl = CPS_API . '?' . http_build_query($_SESSION['prom']);
-
-
+        // $curl = CPS_API . '?' . http_build_query($_SESSION['prom']);
         // WeUtility::logging('TODO debug2345',  array('file'=>'D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\confirm.php ','res'=>$res,'curl'=>$curl,'prom'=>$_SESSION['prom']));
 
 		if (is_array($carrier)) {
