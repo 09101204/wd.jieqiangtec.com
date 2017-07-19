@@ -313,7 +313,7 @@ function cp($pluginname = '')
 // TODO jieqiang  权限控制
 function cpa($pluginname = '')
 {
-    var_dump('TODO jieqinagtest $pluginname==',$pluginname);
+//    var_dump('TODO jieqinagtest $pluginname==',$pluginname);
     if (!cp($pluginname)) {
 //        message('您没有权限操作，请联系管理员333!', '', 'error');
     }
