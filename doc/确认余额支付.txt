@@ -1,0 +1,908 @@
+==========================================================================
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_core_sessions` WHERE `sid`='23de250a36720788204fa3f08c2af1d4' AND `expiretime`>'1500263361' ;
+Array:
+:sessid : 23de250a36720788204fa3f08c2af1d4 ;
+:time : 1500263361 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_mc_mapping_fans` WHERE `uniacid`='5' AND `acid`='5' AND `openid`='oZo4hw8Wt565YLamn2TJqGExQirA' ;
+Array:
+:uniacid : 5 ;
+:acid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`,`mobile`,`email`,`groupid`,`credit1`,`credit2`,`credit6` FROM `ims_mc_members` WHERE `uid`='199' AND `uniacid`='5' ;
+Array:
+:uid : 199 ;
+:uniacid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_site_multi` WHERE id='5' AND uniacid='5' ;
+Array:
+:id : 5 ;
+:uniacid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_site_styles` WHERE id = '10' ;
+Array:
+:id : 10 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT id, name, package FROM `ims_users_group` WHERE id = '3' ;
+Array:
+:id : 3 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select follow from `ims_mc_mapping_fans` where openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+:uniacid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`, `realname`,`mobile`,`avatar`,`resideprovince`,`residecity`,`residedist` FROM `ims_mc_members` WHERE `uid` = '199' ;
+Array:
+:uid : 199 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_designer_menu` where isdefault=1 and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : ewei_shop ;
+p : detail ;
+id : 25 ;
+mid : 0 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : ewei_shop ;
+p : detail ;
+id : 25 ;
+mid : 0 ;
+$_GPC['op'] : complete ;
+$_W['isajax'] :  ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_order` where id='69' and uniacid='5' and openid='oZo4hw8Wt565YLamn2TJqGExQirA' limit 1 ;
+Array:
+:id : 69 ;
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_core_paylog` WHERE `uniacid`='5' AND `module`='ewei_shop' AND `tid`='SH201707171148478808' limit 1 ;
+Array:
+:uniacid : 5 ;
+:module : ewei_shop ;
+:tid : SH201707171148478808 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : desk ;
+p : detail ;
+id : 25 ;
+mid : 0 ;
+a : buy ;
+item_id :  ;
+order_id : 69 ;
+shop_id : 11 ;
+status : 1 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select id,ordersn, price,openid,dispatchtype,addressid,carrier,status,isverify,deductcredit2,virtual,isvirtual from `ims_ewei_shop_order` where  ordersn='SH201707171148478808' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:ordersn : SH201707171148478808 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select realname,mobile,address from `ims_ewei_shop_member_address` where id='3' limit 1 ;
+Array:
+:id : 3 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select id,ordersn,price,openid,dispatchtype,addressid,carrier,status from `ims_ewei_shop_order` where id='69' limit 1 ;
+Array:
+:id : 69 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_order` where id='69' limit 1 ;
+Array:
+:id : 69 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select id,realname,mobile,address,province,city,area from `ims_ewei_shop_member_address` where id='3' and uniacid='5' limit 1 ;
+Array:
+:id : 3 ;
+:uniacid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 11:49:21 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+
+
+==================
+下单
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=runtasks&m=ewei_shop&_=1500265675622
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select follow from `ims_mc_mapping_fans` where openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+:uniacid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=runtasks&m=ewei_shop&_=1500265675622
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`, `realname`,`mobile`,`avatar`,`resideprovince`,`residecity`,`residedist` FROM `ims_mc_members` WHERE `uid` = '199' ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_core_sessions` WHERE `sid`='23de250a36720788204fa3f08c2af1d4' AND `expiretime`>'1500265665' ;
+Array:
+:sessid : 23de250a36720788204fa3f08c2af1d4 ;
+:time : 1500265665 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_mc_mapping_fans` WHERE `uniacid`='5' AND `acid`='5' AND `openid`='oZo4hw8Wt565YLamn2TJqGExQirA' ;
+Array:
+:uniacid : 5 ;
+:acid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`,`mobile`,`email`,`groupid`,`credit1`,`credit2`,`credit6` FROM `ims_mc_members` WHERE `uid`='199' AND `uniacid`='5' ;
+Array:
+:uid : 199 ;
+:uniacid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_site_multi` WHERE id='5' AND uniacid='5' ;
+Array:
+:id : 5 ;
+:uniacid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_site_styles` WHERE id = '10' ;
+Array:
+:id : 10 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT id, name, package FROM `ims_users_group` WHERE id = '3' ;
+Array:
+:id : 3 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select follow from `ims_mc_mapping_fans` where openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+:uniacid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`, `realname`,`mobile`,`avatar`,`resideprovince`,`residecity`,`residedist` FROM `ims_mc_members` WHERE `uid` = '199' ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_designer_menu` where isdefault=1 and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : ewei_shop ;
+p : detail ;
+id : 23?sid=1 ;
+mid : 0 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : ewei_shop ;
+p : detail ;
+id : 23?sid=1 ;
+mid : 0 ;
+$_GPC['op'] :  ;
+$_W['isajax'] :  ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_order` where id='70' and uniacid='5' and openid='oZo4hw8Wt565YLamn2TJqGExQirA' limit 1 ;
+Array:
+:id : 70 ;
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:27:45 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay&orderid=70&openid=oZo4hw8Wt565YLamn2TJqGExQirA
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_core_paylog` WHERE `uniacid`='5' AND `module`='ewei_shop' AND `tid`='SH201707171227442222' limit 1 ;
+Array:
+:uniacid : 5 ;
+:module : ewei_shop ;
+:tid : SH201707171227442222 ;
+
+
+
+支付
+=================
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_core_sessions` WHERE `sid`='23de250a36720788204fa3f08c2af1d4' AND `expiretime`>'1500265813' ;
+Array:
+:sessid : 23de250a36720788204fa3f08c2af1d4 ;
+:time : 1500265813 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_mc_mapping_fans` WHERE `uniacid`='5' AND `acid`='5' AND `openid`='oZo4hw8Wt565YLamn2TJqGExQirA' ;
+Array:
+:uniacid : 5 ;
+:acid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`,`mobile`,`email`,`groupid`,`credit1`,`credit2`,`credit6` FROM `ims_mc_members` WHERE `uid`='199' AND `uniacid`='5' ;
+Array:
+:uid : 199 ;
+:uniacid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_site_multi` WHERE id='5' AND uniacid='5' ;
+Array:
+:id : 5 ;
+:uniacid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_site_styles` WHERE id = '10' ;
+Array:
+:id : 10 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT id, name, package FROM `ims_users_group` WHERE id = '3' ;
+Array:
+:id : 3 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select follow from `ims_mc_mapping_fans` where openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+:uniacid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT `uid`, `realname`,`mobile`,`avatar`,`resideprovince`,`residecity`,`residedist` FROM `ims_mc_members` WHERE `uid` = '199' ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_designer_menu` where isdefault=1 and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : ewei_shop ;
+p : detail ;
+id : 23?sid=1 ;
+mid : 0 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : ewei_shop ;
+p : detail ;
+id : 23?sid=1 ;
+mid : 0 ;
+$_GPC['op'] : complete ;
+$_W['isajax'] :  ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_order` where id='70' and uniacid='5' and openid='oZo4hw8Wt565YLamn2TJqGExQirA' limit 1 ;
+Array:
+:id : 70 ;
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_core_paylog` WHERE `uniacid`='5' AND `module`='ewei_shop' AND `tid`='SH201707171227442222' limit 1 ;
+Array:
+:uniacid : 5 ;
+:module : ewei_shop ;
+:tid : SH201707171227442222 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\addons\ewei_shop\core\mobile\order\pay.php  ;
+sql2 :  ;
+Array:
+i : 5 ;
+c : entry ;
+do : shop ;
+m : desk ;
+p : detail ;
+id : 23?sid=1 ;
+mid : 0 ;
+a : buy ;
+item_id :  ;
+order_id : 70 ;
+shop_id : 11 ;
+status : 1 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select id,ordersn, price,openid,dispatchtype,addressid,carrier,status,isverify,deductcredit2,virtual,isvirtual from `ims_ewei_shop_order` where  ordersn='SH201707171227442222' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:ordersn : SH201707171227442222 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select realname,mobile,address from `ims_ewei_shop_member_address` where id='3' limit 1 ;
+Array:
+:id : 3 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select id,ordersn,price,openid,dispatchtype,addressid,carrier,status from `ims_ewei_shop_order` where id='70' limit 1 ;
+Array:
+:id : 70 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_order` where id='70' limit 1 ;
+Array:
+:id : 70 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select * from `ims_ewei_shop_member` where  openid='oZo4hw8Wt565YLamn2TJqGExQirA' and uniacid='5' limit 1 ;
+Array:
+:uniacid : 5 ;
+:openid : oZo4hw8Wt565YLamn2TJqGExQirA ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT credit1,credit2 FROM `ims_mc_members` WHERE `uid` = '199' limit 1 ;
+Array:
+:uid : 199 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : select id,realname,mobile,address,province,city,area from `ims_ewei_shop_member_address` where id='3' and uniacid='5' limit 1 ;
+Array:
+:id : 3 ;
+:uniacid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT w.*, a.type, a.isconnect FROM `ims_account` a INNER JOIN `ims_account_wechats` w USING(acid) WHERE acid = '5' ;
+Array:
+:acid : 5 ;
+
+2017-07-17 12:30:13 TODO debug2 ：来源:
+http://shop.adjyc.com/app/index.php?i=5&c=entry&do=order&m=ewei_shop&p=pay
+------------
+Array:
+file : D:\www\users\wd2.jieqiangtec.com\framework\class\db.class.php fetch($sql, $params = array())  ;
+sql2 : SELECT * FROM `ims_users`  WHERE 1  AND `uid`='7' LIMIT 1 ;
+Array:
+:uid : 7 ;
+
