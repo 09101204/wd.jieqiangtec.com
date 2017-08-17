@@ -19,6 +19,7 @@ function m($name = '')
 }
 function p($name = '')
 {
+//    var_dump('TODO name====',$name,IN_MOBILE);
     if ($name != 'perm' && !IN_MOBILE) {
         static $_perm_model;
         if (!$_perm_model) {
@@ -40,12 +41,16 @@ function p($name = '')
         return $_plugins[$name];
     }
     $model = EWEI_SHOP_PLUGIN . strtolower($name) . '/model.php';
+//    var_dump('TODO $model====',$model,IN_MOBILE); // string 'D:/www/users/wd2.jieqiangtec.com/addons/ewei_shop/plugin/perm/model.php' (length=71)
     if (!is_file($model)) {
         return false;
     }
     require $model;
     $class_name      = ucfirst($name) . 'Model';
     $_plugins[$name] = new $class_name($name);
+
+//    var_dump('TODO $class_name====',$class_name,$name,$_plugins[$name]);
+
     return $_plugins[$name];
 }
 function byte_format($input, $dec = 0)
@@ -287,10 +292,13 @@ function cv($permtypes = '')
     }
     return true;
 }
+
+
+// TODO jieqiang  权限控制
 function ca($permtypes = '')
 {
     if (!cv($permtypes)) {
-        message('您没有权限操作，请联系管理员!', '', 'error');
+//        message('您没有权限操作，请联系管理员222!', '', 'error');
     }
 }
 function cp($pluginname = '')
@@ -301,10 +309,13 @@ function cp($pluginname = '')
     }
     return true;
 }
+
+// TODO jieqiang  权限控制
 function cpa($pluginname = '')
 {
+//    var_dump('TODO jieqinagtest $pluginname==',$pluginname);
     if (!cp($pluginname)) {
-        message('您没有权限操作，请联系管理员!', '', 'error');
+//        message('您没有权限操作，请联系管理员333!', '', 'error');
     }
 }
 function plog($type = '', $op = '')
