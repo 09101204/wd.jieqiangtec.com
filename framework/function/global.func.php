@@ -14,8 +14,8 @@ defined('IN_IA') or exit('Access Denied');
  * @return array  $data   响应数据
  */
 function http_request($url, $params, $method = 'GET', $header = array(), $multi = false){
-//    var_dump(111);exit;
-//    error_log("\n\n".$url, 3, '/data/logs/curl.txt');
+    // var_dump(111);exit;
+    // error_log("\n\n".date('Y-m-d H:i:s').'=='.$url, 3, '/alidata/www/git/wd2.jieqiangtec.com/data/logs/curl.txt');
 
     $opts = array(
         CURLOPT_TIMEOUT        => 30,
@@ -30,7 +30,8 @@ function http_request($url, $params, $method = 'GET', $header = array(), $multi 
         case 'GET':
             $opts[CURLOPT_URL] = $url . '?' . http_build_query($params);
 
-            error_log("\n\n".$opts[CURLOPT_URL], 3, 'data/logs/curl.txt');
+            // error_log("\n\n".$opts[CURLOPT_URL], 3, 'data/logs/curl.txt');
+    // error_log("\n\n".date('Y-m-d H:i:s').'=='.$url, 3, 'data/logs/curl2.txt');
 
 //             var_dump($opts[CURLOPT_URL]); // http://cps.jieqiangtec.cn/cps.php?id=25&sid=1&sname=admin&item_id=25&push_id=32&shop_id=11&con_id=5&rate=20&cate_id=0&cate_name=%E7%8F%A0%E5%AE%9D%E9%85%8D%E9%A5%B0&bank_id=1&bank_subid=&user_id=cps%E5%B9%B3%E5%8F%B0&m=desk&a=buy&status=1&order_id=81
             break;
